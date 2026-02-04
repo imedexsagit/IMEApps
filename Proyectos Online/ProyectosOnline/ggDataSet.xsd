@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ggDataSet" targetNamespace="http://tempuri.org/ggDataSet.xsd" xmlns:mstns="http://tempuri.org/ggDataSet.xsd" xmlns="http://tempuri.org/ggDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ggConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ggConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ProyectosOnLine.Properties.Settings.GlobalReference.Default.ggConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="T_ORDFABTableAdapter" GeneratorDataComponentClassName="T_ORDFABTableAdapter" Name="T_ORDFAB" UserDataComponentName="T_ORDFABTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ggConnectionString (Settings)" DbObjectName="gg.dbo.T_ORDFAB" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        T_ORDFAB.PROYECTO, T_ORDFAB.CODIGO, T_ORDFAB.ORDFAB, T_ORDFAB.CTDLAN, T_ORDFAB.FLAG,
+                             (SELECT        TOP (1) T_ARTICULOS.CODIGO
+                               FROM            T_ORDFABM INNER JOIN
+                                                         T_ARTICULOS ON T_ORDFABM.CODEMP = T_ARTICULOS.CodEMP AND T_ORDFABM.CODIGO = T_ARTICULOS.CODIGO
+                               WHERE        (T_ORDFABM.CODEMP = T_ORDFAB.CODEMP) AND (T_ORDFABM.ORDFAB = T_ORDFAB.ORDFAB) AND (T_ORDFABM.CTDENL &gt; 0) AND (T_ARTICULOS.FAMILIA = 'MP')) AS MP, ISNULL
+                             ((SELECT        VALOR
+                                 FROM            T_ARTCAR
+                                 WHERE        (CodEMP = T_ORDFAB.CODEMP) AND (CODIGO = T_ORDFAB.CODIGO) AND (CATEGO = T_ORDFAB.CATEGORIA) AND (CARACT = '04')), '') AS Caract, ISNULL
+                             ((SELECT        SUM(1) AS Expr1
+                                 FROM            TC_IMPORT_BONOS INNER JOIN
+                                                          T_MAQUINAS ON TC_IMPORT_BONOS.CODEMP = T_MAQUINAS.CODEMP AND TC_IMPORT_BONOS.MAQUINA = T_MAQUINAS.MAQUI
+                                 WHERE        (T_MAQUINAS.TIPOP = '010') AND (TC_IMPORT_BONOS.CODEMP = T_ORDFAB.CODEMP) AND (TC_IMPORT_BONOS.ORDFAB_int = T_ORDFAB.ORDFAB) AND (TC_IMPORT_BONOS.PBUENAS_float &lt;&gt; 0) AND 
+                                                          (TC_IMPORT_BONOS.CLAHOR = 0) AND (TC_IMPORT_BONOS.FLAGS = 0)), 0) AS SinProcesar, CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpFicep()) 
+                         = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Fice), 0) ELSE NULL END AS Fice, CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpFresar()) 
+                         = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Fres), 0) ELSE NULL END AS Fres, CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpGeka()) 
+                         = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Geka), 0) ELSE NULL END AS Geka, CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpCizalla()) = 1 THEN CASE WHEN
+                             (SELECT        COUNT(*)
+                               FROM            TC_BONOL
+                               WHERE        CODEMP = T_ORDFAB.CODEMP AND ORDFAB = T_ORDFAB.ORDFAB AND OPERAC = dbo.IME_GetOpCizalla()) &gt; 0 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Ciza), 0) ELSE - 1 END ELSE NULL END AS Ciza, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpFicepV()) = 1 THEN CASE WHEN
+                             (SELECT        COUNT(*)
+                               FROM            TC_BONOL
+                               WHERE        CODEMP = T_ORDFAB.CODEMP AND ORDFAB = T_ORDFAB.ORDFAB AND OPERAC = dbo.IME_GetOpFicepV()) &gt; 0 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Punz), 0) ELSE - 1 END ELSE NULL END AS Punz, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpPlasma()) = 1 THEN CASE WHEN
+                             (SELECT        COUNT(*)
+                               FROM            TC_BONOL
+                               WHERE        CODEMP = T_ORDFAB.CODEMP AND ORDFAB = T_ORDFAB.ORDFAB AND OPERAC = dbo.IME_GetOpPlasma()) &gt; 0 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Plasm), 0) ELSE - 1 END ELSE NULL END AS Plasm, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpPlegadora()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Pleg), 0) ELSE NULL END AS Pleg, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpManual()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Manu), 0) ELSE NULL END AS Manu, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpSierra()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Serr), 0) ELSE NULL END AS Serr, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpGranallado()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Gran), 0) ELSE NULL END AS Gran, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpPunteoArcoSumergido()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.PunteoArcoSumergido), 0) ELSE NULL END AS PunteoAS, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpSoldaduraArcoSumergido()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.SoldaduraArcoSumergido), 0) ELSE NULL 
+                         END AS SoldAS, CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpPunteoSoldadura()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Punteo), 0) ELSE NULL END AS Punteo, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpSoldar()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Sold), 0) ELSE NULL END AS Sold, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpExterior()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Exte), 0) ELSE NULL END AS Exte, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpPlegadoraCH()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.PlegCH), 0) ELSE NULL END AS PlegCH, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpFresarCH()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.FresCH), 0) ELSE NULL END AS FresCH, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpBiselarCH()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.BiselCH), 0) ELSE NULL END AS BiselCH, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpContornear()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Contor), 0) ELSE NULL END AS Contor, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpAvellanar()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Avella), 0) ELSE NULL END AS Avella, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpRetaladrar()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Retala), 0) ELSE NULL END AS Retala, 
+                         CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, dbo.IME_GetOpGalvanizar()) = 1 THEN isnull
+                             ((SELECT        SUM(imedexsa_intranet.dbo.GL_ITEMSPAQ.cantidad) AS ctd
+                                 FROM            gg.dbo.TC_LANZA_ETIQUETA INNER JOIN
+                                                          imedexsa_intranet.dbo.GL_ITEMSPAQ INNER JOIN
+                                                          imedexsa_intranet.dbo.GL_PAQUE ON imedexsa_intranet.dbo.GL_ITEMSPAQ.paque_id = imedexsa_intranet.dbo.GL_PAQUE.id ON 
+                                                          gg.dbo.TC_LANZA_ETIQUETA.Etiqueta = imedexsa_intranet.dbo.GL_ITEMSPAQ.cb INNER JOIN
+                                                          imedexsa_intranet.dbo.GL_EXPED INNER JOIN
+                                                          imedexsa_intranet.dbo.GL_ITEMSEXP ON imedexsa_intranet.dbo.GL_EXPED.id = imedexsa_intranet.dbo.GL_ITEMSEXP.exped_id ON 
+                                                          imedexsa_intranet.dbo.GL_PAQUE.id = imedexsa_intranet.dbo.GL_ITEMSEXP.paque_id
+                                 WHERE        (imedexsa_intranet.dbo.GL_EXPED.estado = 1) AND (imedexsa_intranet.dbo.GL_PAQUE.estado = 'ACE') AND (gg.dbo.TC_LANZA_ETIQUETA.CodEmp = T_ORDFAB.CODEMP) AND 
+                                                          (gg.dbo.TC_LANZA_ETIQUETA.TIPOREG = 'F') AND (gg.dbo.TC_LANZA_ETIQUETA.OrdFab = T_ORDFAB.ORDFAB)), 0) ELSE NULL END AS Expe, CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, 
+                         T_ORDFAB.ORDFAB, dbo.IME_GetOpGalvanizar()) = 1 THEN isnull(SUM(Vista_TC_IMPORTBONOS.Recep), 0) ELSE NULL END AS Rece, CASE WHEN dbo.IME_Tiene_OF_Ope(T_ORDFAB.CODEMP, T_ORDFAB.ORDFAB, 
+                         dbo.IME_GetOpGalvanizar()) = 1 THEN isnull
+                             ((SELECT        SUM(CASE WHEN EstadoEtiqueta = 'Descolgado' THEN CantidadBIENGalvaniada ELSE '0' END) AS CantidadGalvanizada
+                                 FROM            ((SELECT        *
+                                                             FROM            [gg].[dbo].TC_LANZA_ETIQUETA
+                                                             WHERE        OrdFab IN
+                                                                                          (SELECT        ORDFAB
+                                                                                            FROM            [gg].[dbo].T_ORDFAB
+                                                                                            WHERE        PROYECTO = @CodLanza)) lanzaEtiqueta LEFT JOIN
+                                                              (SELECT        *
+                                                                FROM            [gg].[dbo].TC_GALV_Cuelgue_Etiqueta) cuelgueEtiqueta ON lanzaEtiqueta.Etiqueta = cuelgueEtiqueta.IdEtiqueta)
+                                 WHERE        (lanzaEtiqueta.CodEmp = T_ORDFAB.CODEMP) AND (lanzaEtiqueta.OrdFab = T_ORDFAB.ORDFAB)
+                                 GROUP BY OrdFab), 0) ELSE NULL END AS Galv,
+                             (SELECT        CASE WHEN isnull(numInspecciones, 0) = 0 THEN 0 WHEN Incorrecto &gt; 0 THEN - 1 ELSE 1 END AS Expr1
+                               FROM            (SELECT        COUNT(TC_InspeccionEtiquetas.id) AS numInspecciones, SUM(CASE WHEN TC_InspeccionEtiquetas.Correcto = 1 THEN 1 ELSE 0 END) AS Correcto, 
+                                                                                   SUM(CASE WHEN TC_InspeccionEtiquetas.Correcto = 0 THEN 1 ELSE 0 END) AS Incorrecto
+                                                         FROM            TC_InspeccionEtiquetas INNER JOIN
+                                                                                   TC_LANZA_ETIQUETA ON TC_InspeccionEtiquetas.Etiqueta = TC_LANZA_ETIQUETA.Etiqueta AND TC_InspeccionEtiquetas.CodEmp = TC_LANZA_ETIQUETA.CodEmp
+                                                         WHERE        (TC_InspeccionEtiquetas.CodEmp = @empresa) AND (TC_LANZA_ETIQUETA.OrdFab = T_ORDFAB.ORDFAB)) AS t_) AS calidad
+FROM            T_ORDFAB LEFT OUTER JOIN
+                         Vista_TC_IMPORTBONOS ON T_ORDFAB.CODEMP = Vista_TC_IMPORTBONOS.CODEMP AND T_ORDFAB.ORDFAB = Vista_TC_IMPORTBONOS.ORDFAB
+WHERE        (T_ORDFAB.CODEMP = @empresa) AND (T_ORDFAB.TIPOREG = 'F') AND (T_ORDFAB.PROYECTO = CAST(@CodLanza AS varchar(10))) AND 
+                         (T_ORDFAB.FLAG = CASE WHEN @FiltroEstadoOF = 0 THEN '0' WHEN @FiltroEstadoOF = 1 THEN '1' ELSE T_ORDFAB.FLAG END) AND (ISNULL
+                             ((SELECT        TOP (1) T_ARTICULOS_1.CATEGORIA
+                                 FROM            T_ORDFABM AS T_ORDFABM_1 INNER JOIN
+                                                          T_ARTICULOS AS T_ARTICULOS_1 ON T_ORDFABM_1.CODEMP = T_ARTICULOS_1.CodEMP AND T_ORDFABM_1.CODIGO = T_ARTICULOS_1.CODIGO
+                                 WHERE        (T_ORDFABM_1.CODEMP = T_ORDFAB.CODEMP) AND (T_ORDFABM_1.ORDFAB = T_ORDFAB.ORDFAB) AND (T_ORDFABM_1.CTDENL &gt; 0) AND (T_ARTICULOS_1.FAMILIA = 'MP')), '') 
+                         IN (CASE WHEN @M1 = 1 THEN 'M1' END, CASE WHEN @M2 = 1 THEN 'M2' END, CASE WHEN @M3 = 1 THEN 'M3' END, CASE WHEN @M4 = 1 THEN 'M4' END, CASE WHEN @M5 = 1 THEN 'M5' END, 
+                         CASE WHEN @CS = 1 THEN '' END)) AND (@codigo &lt;&gt; '' AND T_ORDFAB.CODIGO LIKE @codigo + '%' OR
+                         @codigo = '')
+GROUP BY T_ORDFAB.CODEMP, T_ORDFAB.PROYECTO, T_ORDFAB.CODIGO, T_ORDFAB.ORDFAB, T_ORDFAB.CTDLAN, T_ORDFAB.FLAG, T_ORDFAB.CATEGORIA
+ORDER BY T_ORDFAB.CODIGO, T_ORDFAB.ORDFAB</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="empresa" ColumnName="CODEMP" DataSourceName="gg.dbo.T_ORDFAB" DataTypeServer="varchar(2)" DbType="AnsiString" Direction="Input" ParameterName="@empresa" Precision="0" ProviderType="VarChar" Scale="0" Size="2" SourceColumn="CODEMP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="CodLanza" ColumnName="PROYECTO" DataSourceName="gg.dbo.T_ORDFAB" DataTypeServer="varchar(20)" DbType="AnsiString" Direction="Input" ParameterName="@CodLanza" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumn="PROYECTO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" ColumnName="EstadoOF" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@FiltroEstadoOF" Precision="0" ProviderType="Int" Scale="0" Size="1" SourceColumn="FLAG" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" ColumnName="M1" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@M1" Precision="0" ProviderType="Int" Scale="0" Size="1" SourceColumn="M1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" ColumnName="M2" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@M2" Precision="0" ProviderType="Int" Scale="0" Size="1" SourceColumn="M2" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" ColumnName="M3" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@M3" Precision="0" ProviderType="Int" Scale="0" Size="1" SourceColumn="M3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" ColumnName="M4" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@M4" Precision="0" ProviderType="Int" Scale="0" Size="1" SourceColumn="M4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" ColumnName="M5" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@M5" Precision="0" ProviderType="Int" Scale="0" Size="1" SourceColumn="M5" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" ColumnName="CS" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@CS" Precision="0" ProviderType="Int" Scale="0" Size="1" SourceColumn="CS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="codigo" ColumnName="CODIGO" DataSourceName="gg.dbo.T_ORDFAB" DataTypeServer="varchar(20)" DbType="AnsiString" Direction="Input" ParameterName="@codigo" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumn="CODIGO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ORDFAB" DataSetColumn="ORDFAB" />
+              <Mapping SourceColumn="CODIGO" DataSetColumn="CODIGO" />
+              <Mapping SourceColumn="PROYECTO" DataSetColumn="PROYECTO" />
+              <Mapping SourceColumn="FLAG" DataSetColumn="FLAG" />
+              <Mapping SourceColumn="CTDLAN" DataSetColumn="CTDLAN" />
+              <Mapping SourceColumn="Expe" DataSetColumn="Expe" />
+              <Mapping SourceColumn="Fice" DataSetColumn="Fice" />
+              <Mapping SourceColumn="Fres" DataSetColumn="Fres" />
+              <Mapping SourceColumn="Geka" DataSetColumn="Geka" />
+              <Mapping SourceColumn="Ciza" DataSetColumn="Ciza" />
+              <Mapping SourceColumn="Punz" DataSetColumn="Punz" />
+              <Mapping SourceColumn="Plasm" DataSetColumn="Plasm" />
+              <Mapping SourceColumn="Pleg" DataSetColumn="Pleg" />
+              <Mapping SourceColumn="Manu" DataSetColumn="Manu" />
+              <Mapping SourceColumn="Serr" DataSetColumn="Serr" />
+              <Mapping SourceColumn="Sold" DataSetColumn="Sold" />
+              <Mapping SourceColumn="Exte" DataSetColumn="Exte" />
+              <Mapping SourceColumn="Rece" DataSetColumn="Rece" />
+              <Mapping SourceColumn="MP" DataSetColumn="MP" />
+              <Mapping SourceColumn="SinProcesar" DataSetColumn="SinProcesar" />
+              <Mapping SourceColumn="Caract" DataSetColumn="Caract" />
+              <Mapping SourceColumn="Gran" DataSetColumn="Gran" />
+              <Mapping SourceColumn="calidad" DataSetColumn="calidad" />
+              <Mapping SourceColumn="PlegCH" DataSetColumn="PlegCH" />
+              <Mapping SourceColumn="FresCH" DataSetColumn="FresCH" />
+              <Mapping SourceColumn="BiselCH" DataSetColumn="BiselCH" />
+              <Mapping SourceColumn="Contor" DataSetColumn="Contor" />
+              <Mapping SourceColumn="Avella" DataSetColumn="Avella" />
+              <Mapping SourceColumn="Retala" DataSetColumn="Retala" />
+              <Mapping SourceColumn="Punteo" DataSetColumn="Punteo" />
+              <Mapping SourceColumn="PunteoAS" DataSetColumn="PunteoAS" />
+              <Mapping SourceColumn="SoldAS" DataSetColumn="SoldAS" />
+              <Mapping SourceColumn="Galv" DataSetColumn="Galv" />
+              <Mapping SourceColumn="M1" DataSetColumn="M1" />
+              <Mapping SourceColumn="M2" DataSetColumn="M2" />
+              <Mapping SourceColumn="M3" DataSetColumn="M3" />
+              <Mapping SourceColumn="M4" DataSetColumn="M4" />
+              <Mapping SourceColumn="M5" DataSetColumn="M5" />
+              <Mapping SourceColumn="CS" DataSetColumn="CS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ggDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ggDataSet" msprop:Generator_UserDSName="ggDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="T_ORDFAB" msprop:Generator_UserTableName="T_ORDFAB" msprop:Generator_RowEvArgName="T_ORDFABRowChangeEvent" msprop:Generator_TableVarName="tableT_ORDFAB" msprop:Generator_TablePropName="T_ORDFAB" msprop:Generator_RowDeletingName="T_ORDFABRowDeleting" msprop:Generator_RowChangingName="T_ORDFABRowChanging" msprop:Generator_RowDeletedName="T_ORDFABRowDeleted" msprop:Generator_RowEvHandlerName="T_ORDFABRowChangeEventHandler" msprop:Generator_TableClassName="T_ORDFABDataTable" msprop:Generator_RowChangedName="T_ORDFABRowChanged" msprop:Generator_RowClassName="T_ORDFABRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ORDFAB" msprop:Generator_ColumnVarNameInTable="columnORDFAB" msprop:Generator_ColumnPropNameInRow="ORDFAB" msprop:Generator_ColumnPropNameInTable="ORDFABColumn" msprop:Generator_UserColumnName="ORDFAB" type="xs:int" />
+              <xs:element name="CODIGO" msprop:Generator_ColumnVarNameInTable="columnCODIGO" msprop:Generator_ColumnPropNameInRow="CODIGO" msprop:Generator_ColumnPropNameInTable="CODIGOColumn" msprop:Generator_UserColumnName="CODIGO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROYECTO" msprop:Generator_ColumnVarNameInTable="columnPROYECTO" msprop:Generator_ColumnPropNameInRow="PROYECTO" msprop:Generator_ColumnPropNameInTable="PROYECTOColumn" msprop:Generator_UserColumnName="PROYECTO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FLAG" msprop:Generator_ColumnVarNameInTable="columnFLAG" msprop:Generator_ColumnPropNameInRow="FLAG" msprop:Generator_ColumnPropNameInTable="FLAGColumn" msprop:Generator_UserColumnName="FLAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M1" msprop:Generator_ColumnVarNameInTable="columnM1" msprop:Generator_ColumnPropNameInRow="M1" msprop:Generator_ColumnPropNameInTable="M1Column" msprop:Generator_UserColumnName="M1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M2" msprop:Generator_ColumnVarNameInTable="columnM2" msprop:Generator_ColumnPropNameInRow="M2" msprop:Generator_ColumnPropNameInTable="M2Column" msprop:Generator_UserColumnName="M2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M3" msprop:Generator_ColumnVarNameInTable="columnM3" msprop:Generator_ColumnPropNameInRow="M3" msprop:Generator_ColumnPropNameInTable="M3Column" msprop:Generator_UserColumnName="M3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M4" msprop:Generator_ColumnVarNameInTable="columnM4" msprop:Generator_ColumnPropNameInRow="M4" msprop:Generator_ColumnPropNameInTable="M4Column" msprop:Generator_UserColumnName="M4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M5" msprop:Generator_ColumnVarNameInTable="columnM5" msprop:Generator_ColumnPropNameInRow="M5" msprop:Generator_ColumnPropNameInTable="M5Column" msprop:Generator_UserColumnName="M5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CS" msprop:Generator_ColumnVarNameInTable="columnCS" msprop:Generator_ColumnPropNameInRow="CS" msprop:Generator_ColumnPropNameInTable="CSColumn" msprop:Generator_UserColumnName="CS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CTDLAN" msprop:Generator_ColumnVarNameInTable="columnCTDLAN" msprop:Generator_ColumnPropNameInRow="CTDLAN" msprop:Generator_ColumnPropNameInTable="CTDLANColumn" msprop:Generator_UserColumnName="CTDLAN" type="xs:double" minOccurs="0" />
+              <xs:element name="Expe" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnExpe" msprop:Generator_ColumnPropNameInRow="Expe" msprop:Generator_ColumnPropNameInTable="ExpeColumn" msprop:Generator_UserColumnName="Expe" type="xs:int" minOccurs="0" />
+              <xs:element name="Fice" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFice" msprop:Generator_ColumnPropNameInRow="Fice" msprop:Generator_ColumnPropNameInTable="FiceColumn" msprop:Generator_UserColumnName="Fice" type="xs:double" minOccurs="0" />
+              <xs:element name="Fres" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFres" msprop:Generator_ColumnPropNameInRow="Fres" msprop:Generator_ColumnPropNameInTable="FresColumn" msprop:Generator_UserColumnName="Fres" type="xs:double" minOccurs="0" />
+              <xs:element name="Geka" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGeka" msprop:Generator_ColumnPropNameInRow="Geka" msprop:Generator_ColumnPropNameInTable="GekaColumn" msprop:Generator_UserColumnName="Geka" type="xs:double" minOccurs="0" />
+              <xs:element name="Ciza" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCiza" msprop:Generator_ColumnPropNameInRow="Ciza" msprop:Generator_ColumnPropNameInTable="CizaColumn" msprop:Generator_UserColumnName="Ciza" type="xs:double" minOccurs="0" />
+              <xs:element name="Punz" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPunz" msprop:Generator_ColumnPropNameInRow="Punz" msprop:Generator_ColumnPropNameInTable="PunzColumn" msprop:Generator_UserColumnName="Punz" type="xs:double" minOccurs="0" />
+              <xs:element name="Plasm" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPlasm" msprop:Generator_ColumnPropNameInRow="Plasm" msprop:Generator_ColumnPropNameInTable="PlasmColumn" msprop:Generator_UserColumnName="Plasm" type="xs:double" minOccurs="0" />
+              <xs:element name="Pleg" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPleg" msprop:Generator_ColumnPropNameInRow="Pleg" msprop:Generator_ColumnPropNameInTable="PlegColumn" msprop:Generator_UserColumnName="Pleg" type="xs:double" minOccurs="0" />
+              <xs:element name="Manu" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnManu" msprop:Generator_ColumnPropNameInRow="Manu" msprop:Generator_ColumnPropNameInTable="ManuColumn" msprop:Generator_UserColumnName="Manu" type="xs:double" minOccurs="0" />
+              <xs:element name="Serr" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSerr" msprop:Generator_ColumnPropNameInRow="Serr" msprop:Generator_ColumnPropNameInTable="SerrColumn" msprop:Generator_UserColumnName="Serr" type="xs:double" minOccurs="0" />
+              <xs:element name="Sold" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSold" msprop:Generator_ColumnPropNameInRow="Sold" msprop:Generator_ColumnPropNameInTable="SoldColumn" msprop:Generator_UserColumnName="Sold" type="xs:double" minOccurs="0" />
+              <xs:element name="Exte" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnExte" msprop:Generator_ColumnPropNameInRow="Exte" msprop:Generator_ColumnPropNameInTable="ExteColumn" msprop:Generator_UserColumnName="Exte" type="xs:double" minOccurs="0" />
+              <xs:element name="Rece" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnRece" msprop:Generator_ColumnPropNameInRow="Rece" msprop:Generator_ColumnPropNameInTable="ReceColumn" msprop:Generator_UserColumnName="Rece" type="xs:double" minOccurs="0" />
+              <xs:element name="MP" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMP" msprop:Generator_ColumnPropNameInRow="MP" msprop:Generator_ColumnPropNameInTable="MPColumn" msprop:Generator_UserColumnName="MP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SinProcesar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSinProcesar" msprop:Generator_ColumnPropNameInRow="SinProcesar" msprop:Generator_ColumnPropNameInTable="SinProcesarColumn" msprop:Generator_UserColumnName="SinProcesar" type="xs:int" minOccurs="0" />
+              <xs:element name="Caract" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCaract" msprop:Generator_ColumnPropNameInRow="Caract" msprop:Generator_ColumnPropNameInTable="CaractColumn" msprop:Generator_UserColumnName="Caract" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gran" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGran" msprop:Generator_ColumnPropNameInRow="Gran" msprop:Generator_ColumnPropNameInTable="GranColumn" msprop:Generator_UserColumnName="Gran" type="xs:double" minOccurs="0" />
+              <xs:element name="calidad" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncalidad" msprop:Generator_ColumnPropNameInRow="calidad" msprop:Generator_ColumnPropNameInTable="calidadColumn" msprop:Generator_UserColumnName="calidad" type="xs:int" minOccurs="0" />
+              <xs:element name="PlegCH" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPlegCH" msprop:Generator_ColumnPropNameInRow="PlegCH" msprop:Generator_ColumnPropNameInTable="PlegCHColumn" msprop:Generator_UserColumnName="PlegCH" type="xs:double" minOccurs="0" />
+              <xs:element name="FresCH" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFresCH" msprop:Generator_ColumnPropNameInRow="FresCH" msprop:Generator_ColumnPropNameInTable="FresCHColumn" msprop:Generator_UserColumnName="FresCH" type="xs:double" minOccurs="0" />
+              <xs:element name="BiselCH" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBiselCH" msprop:Generator_ColumnPropNameInRow="BiselCH" msprop:Generator_ColumnPropNameInTable="BiselCHColumn" msprop:Generator_UserColumnName="BiselCH" type="xs:double" minOccurs="0" />
+              <xs:element name="Contor" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnContor" msprop:Generator_ColumnPropNameInRow="Contor" msprop:Generator_ColumnPropNameInTable="ContorColumn" msprop:Generator_UserColumnName="Contor" type="xs:double" minOccurs="0" />
+              <xs:element name="Avella" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAvella" msprop:Generator_ColumnPropNameInRow="Avella" msprop:Generator_ColumnPropNameInTable="AvellaColumn" msprop:Generator_UserColumnName="Avella" type="xs:double" minOccurs="0" />
+              <xs:element name="Retala" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnRetala" msprop:Generator_ColumnPropNameInRow="Retala" msprop:Generator_ColumnPropNameInTable="RetalaColumn" msprop:Generator_UserColumnName="Retala" type="xs:double" minOccurs="0" />
+              <xs:element name="Punteo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPunteo" msprop:Generator_ColumnPropNameInRow="Punteo" msprop:Generator_ColumnPropNameInTable="PunteoColumn" msprop:Generator_UserColumnName="Punteo" type="xs:double" minOccurs="0" />
+              <xs:element name="PunteoAS" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPunteoAS" msprop:Generator_ColumnPropNameInRow="PunteoAS" msprop:Generator_ColumnPropNameInTable="PunteoASColumn" msprop:Generator_UserColumnName="PunteoAS" type="xs:double" minOccurs="0" />
+              <xs:element name="SoldAS" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSoldAS" msprop:Generator_ColumnPropNameInRow="SoldAS" msprop:Generator_ColumnPropNameInTable="SoldASColumn" msprop:Generator_UserColumnName="SoldAS" type="xs:double" minOccurs="0" />
+              <xs:element name="Galv" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGalv" msprop:Generator_ColumnPropNameInRow="Galv" msprop:Generator_ColumnPropNameInTable="GalvColumn" msprop:Generator_UserColumnName="Galv" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

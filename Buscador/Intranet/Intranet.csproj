@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC8FE5E7-EEC2-48DD-82F3-CB1DC7574830}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Intranet</RootNamespace>
+    <AssemblyName>Intranet</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoServicioPlanos.cs" />
+    <Compile Include="dsBusquedaArticulos.cs">
+      <DependentUpon>dsBusquedaArticulos.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsCategorias.cs">
+      <DependentUpon>dsCategorias.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsCodigos.cs">
+      <DependentUpon>dsCodigos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFamilias.cs">
+      <DependentUpon>dsFamilias.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExportToExcelInforme.cs" />
+    <Compile Include="elegirColsInforme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="elegirColsInforme.Designer.cs">
+      <DependentUpon>elegirColsInforme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportToExcel.cs" />
+    <Compile Include="CrearCodigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearCodigo.Designer.cs">
+      <DependentUpon>CrearCodigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\global.cs" />
+    <Compile Include="dsBusquedaArticulos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBusquedaArticulos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCategorias.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCategorias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsClientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsClientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCodigos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCodigos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsEstructuras.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEstructuras.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFamilias.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFamilias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFiltros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFiltros.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLugar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLugar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRepres.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRepres.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Familia_Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Familia_Categoria.Designer.cs">
+      <DependentUpon>Familia_Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportarCodigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportarCodigo.Designer.cs">
+      <DependentUpon>ImportarCodigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intranet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intranet.Designer.cs">
+      <DependentUpon>Intranet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\WebService_Planos\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="VisorWeb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisorWeb.Designer.cs">
+      <DependentUpon>VisorWeb.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CrearCodigo.resx">
+      <DependentUpon>CrearCodigo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="elegirColsInforme.resx">
+      <DependentUpon>elegirColsInforme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Familia_Categoria.resx">
+      <DependentUpon>Familia_Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportarCodigo.resx">
+      <DependentUpon>ImportarCodigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intranet.resx">
+      <DependentUpon>Intranet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VisorWeb.resx">
+      <DependentUpon>VisorWeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="dsBusquedaArticulos.xsc">
+      <DependentUpon>dsBusquedaArticulos.xsd</DependentUpon>
+    </None>
+    <None Include="dsBusquedaArticulos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBusquedaArticulos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsBusquedaArticulos.xss">
+      <DependentUpon>dsBusquedaArticulos.xsd</DependentUpon>
+    </None>
+    <None Include="dsCategorias.xsc">
+      <DependentUpon>dsCategorias.xsd</DependentUpon>
+    </None>
+    <None Include="dsCategorias.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCategorias.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCategorias.xss">
+      <DependentUpon>dsCategorias.xsd</DependentUpon>
+    </None>
+    <None Include="dsClientes.xsc">
+      <DependentUpon>dsClientes.xsd</DependentUpon>
+    </None>
+    <None Include="dsClientes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsClientes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsClientes.xss">
+      <DependentUpon>dsClientes.xsd</DependentUpon>
+    </None>
+    <None Include="dsCodigos.xsc">
+      <DependentUpon>dsCodigos.xsd</DependentUpon>
+    </None>
+    <None Include="dsCodigos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCodigos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCodigos.xss">
+      <DependentUpon>dsCodigos.xsd</DependentUpon>
+    </None>
+    <None Include="dsEstructuras.xsc">
+      <DependentUpon>dsEstructuras.xsd</DependentUpon>
+    </None>
+    <None Include="dsEstructuras.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEstructuras.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsEstructuras.xss">
+      <DependentUpon>dsEstructuras.xsd</DependentUpon>
+    </None>
+    <None Include="dsFamilias.xsc">
+      <DependentUpon>dsFamilias.xsd</DependentUpon>
+    </None>
+    <None Include="dsFamilias.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFamilias.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsFamilias.xss">
+      <DependentUpon>dsFamilias.xsd</DependentUpon>
+    </None>
+    <None Include="dsFiltros.xsc">
+      <DependentUpon>dsFiltros.xsd</DependentUpon>
+    </None>
+    <None Include="dsFiltros.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFiltros.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsFiltros.xss">
+      <DependentUpon>dsFiltros.xsd</DependentUpon>
+    </None>
+    <None Include="dsLugar.xsc">
+      <DependentUpon>dsLugar.xsd</DependentUpon>
+    </None>
+    <None Include="dsLugar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLugar.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsLugar.xss">
+      <DependentUpon>dsLugar.xsd</DependentUpon>
+    </None>
+    <None Include="dsMP.xsc">
+      <DependentUpon>dsMP.xsd</DependentUpon>
+    </None>
+    <None Include="dsMP.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMP.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsMP.xss">
+      <DependentUpon>dsMP.xsd</DependentUpon>
+    </None>
+    <None Include="dsRepres.xsc">
+      <DependentUpon>dsRepres.xsd</DependentUpon>
+    </None>
+    <None Include="dsRepres.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRepres.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsRepres.xss">
+      <DependentUpon>dsRepres.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\WebService_Planos\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\WebService_Planos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WebService_Planos\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WebService_Planos\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WebService_Planos\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WebService_Planos\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Comun\AdvancedDataGridView\AdvancedDataGridView.csproj">
+      <Project>{D8DDBDEA-F799-4119-9F92-A2E4E0AB0E7C}</Project>
+      <Name>AdvancedDataGridView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Comun\Utils\Utils.csproj">
+      <Project>{B23D39B5-27B6-425C-8EC7-7233925E73C8}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ControlAccesos\ControlAccesos\ControlAccesos.csproj">
+      <Project>{E8D4976D-22B2-4931-8A39-47C139948E4D}</Project>
+      <Name>ControlAccesos %28ControlAccesos\ControlAccesos%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\empresaGlobalProj\empresaGlobalProj\empresaGlobalProj.csproj">
+      <Project>{278098CA-9C7D-4B10-B23D-4DE11B5B85BF}</Project>
+      <Name>empresaGlobalProj %28empresaGlobalProj\empresaGlobalProj%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

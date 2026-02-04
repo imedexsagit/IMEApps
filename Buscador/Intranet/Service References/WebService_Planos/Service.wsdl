@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.imedexsa.es/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.imedexsa.es/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.imedexsa.es/">
+      <s:element name="ObtenerFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="marca" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="codemp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerFileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerFile2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="marca" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="codemp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerFile2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerFile2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarTemporales">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarTemporalesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarTemporalesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ObtenerFileSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerFile" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerFileSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerFile2SoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerFile2" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerFile2SoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerFile2Response" />
+  </wsdl:message>
+  <wsdl:message name="EliminarTemporalesSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarTemporales" />
+  </wsdl:message>
+  <wsdl:message name="EliminarTemporalesSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarTemporalesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="ObtenerFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Genera un unico pdf con todos los planos de montaje de una marca. Devuelve el path del pdf generado (lo almacena en una carpeta q viene definida en el fichero de configuracion)</wsdl:documentation>
+      <wsdl:input message="tns:ObtenerFileSoapIn" />
+      <wsdl:output message="tns:ObtenerFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerFile2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Genera un pdf con todos los planos del despiece de una marca</wsdl:documentation>
+      <wsdl:input message="tns:ObtenerFile2SoapIn" />
+      <wsdl:output message="tns:ObtenerFile2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarTemporales">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Elimina los pdf existentes de la carpeta donde se almacenan (por usuario)</wsdl:documentation>
+      <wsdl:input message="tns:EliminarTemporalesSoapIn" />
+      <wsdl:output message="tns:EliminarTemporalesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerFile">
+      <soap:operation soapAction="http://www.imedexsa.es/ObtenerFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerFile2">
+      <soap:operation soapAction="http://www.imedexsa.es/ObtenerFile2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarTemporales">
+      <soap:operation soapAction="http://www.imedexsa.es/EliminarTemporales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerFile">
+      <soap12:operation soapAction="http://www.imedexsa.es/ObtenerFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerFile2">
+      <soap12:operation soapAction="http://www.imedexsa.es/ObtenerFile2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarTemporales">
+      <soap12:operation soapAction="http://www.imedexsa.es/EliminarTemporales" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://swplanos/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://swplanos/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

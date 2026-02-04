@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2795DECF-9394-4EF0-AB80-21CF70716543}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LanzamientoProyectos</RootNamespace>
+    <AssemblyName>LanzamientoProyectos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BD\ConsultasBD.cs" />
+    <Compile Include="Interfaces\ILanzaProyectosForm.cs" />
+    <Compile Include="LanzaProyectosControl.cs" />
+    <Compile Include="LanzaProyectosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LanzaProyectosForm.Designer.cs">
+      <DependentUpon>LanzaProyectosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BD\ggDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ggDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\FiltroPedido.cs" />
+    <Compile Include="Modelo\LineaPedido.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LanzaProyectosForm.resx">
+      <DependentUpon>LanzaProyectosForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="BD\ggDataSet.xsc">
+      <DependentUpon>ggDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD\ggDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ggDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD\ggDataSet.xss">
+      <DependentUpon>ggDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AvanzarDer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AvanzarIzq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AvanzarTodoDer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AvanzarTodoIzq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doble-flecha-derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doble-flecha-izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lecha  arriba 63x58.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lecha  arriba 63x58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Comun\AdvancedDataGridView\AdvancedDataGridView.csproj">
+      <Project>{D8DDBDEA-F799-4119-9F92-A2E4E0AB0E7C}</Project>
+      <Name>AdvancedDataGridView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Comun\Utils\Utils.csproj">
+      <Project>{B23D39B5-27B6-425C-8EC7-7233925E73C8}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ControlAccesos\ControlAccesos\ControlAccesos.csproj">
+      <Project>{E8D4976D-22B2-4931-8A39-47C139948E4D}</Project>
+      <Name>ControlAccesos %28ControlAccesos\ControlAccesos%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\empresaGlobalProj\empresaGlobalProj\empresaGlobalProj.csproj">
+      <Project>{278098CA-9C7D-4B10-B23D-4DE11B5B85BF}</Project>
+      <Name>empresaGlobalProj %28empresaGlobalProj\empresaGlobalProj%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

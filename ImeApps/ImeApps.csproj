@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ImeApps</RootNamespace>
+    <AssemblyName>ImeApps</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\nas01\AppIMEDEXSA\ImeApps\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>558</ApplicationRevision>
+    <ApplicationVersion>1.3.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>54DA6651784AEB3DDD88A35692E5B56739AF0115</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\ImeApps.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoAplicaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccesoAplicaciones.Designer.cs">
+      <DependentUpon>AccesoAplicaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotonAplicacion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BotonAplicacion.Designer.cs">
+      <DependentUpon>BotonAplicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormElegirEmpresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormElegirEmpresas.Designer.cs">
+      <DependentUpon>FormElegirEmpresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmpresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpresas.Designer.cs">
+      <DependentUpon>FormEmpresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccesoAplicaciones.resx">
+      <DependentUpon>AccesoAplicaciones.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotonAplicacion.resx">
+      <DependentUpon>BotonAplicacion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormElegirEmpresas.resx">
+      <DependentUpon>FormElegirEmpresas.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpresas.resx">
+      <DependentUpon>FormEmpresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CertificadoDesarrollo17-06-2026.pfx" />
+    <None Include="CertificadoDesarrollo18-06-2022.pfx" />
+    <None Include="CertificadoDesarrollo19-06-2021.pfx" />
+    <None Include="CertificadoDesarrollo19-06-2025.pfx" />
+    <None Include="CertificadoDesarrollo20-06-2023.pfx" />
+    <None Include="CertificadoDesarrollo20-06-2024.pfx" />
+    <None Include="ImeApps_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstadoTaller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MessageQueuing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NuevoPO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImeApps.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aprovisionamiento\AprovisionamientoCalculo\AprovisionamientoCalculo.csproj">
+      <Project>{EAB092AB-CA66-4C14-B582-2791892F9E04}</Project>
+      <Name>AprovisionamientoCalculo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutoLanzamientoProyectos\AutoLanzamientoProyectos.csproj">
+      <Project>{0AB77AFB-A40F-4421-AE79-7B842559B7B7}</Project>
+      <Name>AutoLanzamientoProyectos %28AutoLanzamientoProyectos\AutoLanzamientoProyectos%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuscadorNC\BuscadorNC.csproj">
+      <Project>{71875CAC-26C0-4111-9B1D-774A73CA7FCD}</Project>
+      <Name>BuscadorNC %28BuscadorNC\BuscadorNC%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Buscador\GestorCategoriasCaracteristicasIngenieria\GestorCategoriasCaracteristicasIngenieria.csproj">
+      <Project>{4E607F05-C170-4873-BC34-B47560218D7B}</Project>
+      <Name>GestorCategoriasCaracteristicasIngenieria</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Buscador\Intranet\Intranet.csproj">
+      <Project>{FC8FE5E7-EEC2-48DD-82F3-CB1DC7574830}</Project>
+      <Name>Intranet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CambioTerceros\CambioTerceros.csproj">
+      <Project>{6A09531D-5A00-4526-BF68-A3A9812462C7}</Project>
+      <Name>CambioTerceros %28CambioTerceros\CambioTerceros%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CamionesGalvanizado\CamionesGalvanizado.csproj">
+      <Project>{953763C7-FAE6-475F-937C-F0FFF50FFA09}</Project>
+      <Name>CamionesGalvanizado</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ControlAccesos\ControlAccesos\ControlAccesos.csproj">
+      <Project>{E8D4976D-22B2-4931-8A39-47C139948E4D}</Project>
+      <Name>ControlAccesos %28ControlAccesos\ControlAccesos%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DivisorLotes\DivisorLotes.csproj">
+      <Project>{BDBDB0AB-42D3-4D0E-A5DC-2BA4964F7EAF}</Project>
+      <Name>DivisorLotes %28DivisorLotes\DivisorLotes%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\empresaGlobalProj\empresaGlobalProj\empresaGlobalProj.csproj">
+      <Project>{278098CA-9C7D-4B10-B23D-4DE11B5B85BF}</Project>
+      <Name>empresaGlobalProj %28empresaGlobalProj\empresaGlobalProj%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Estado Taller\EstadoTaller\EstadoTaller.csproj">
+      <Project>{BC703CE7-7B82-4D10-8612-84857F5B4B3D}</Project>
+      <Name>EstadoTaller %28EstadoTaller\EstadoTaller%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestionGalvanizado\GestionGalvanizado.csproj">
+      <Project>{9706E0D4-A4B6-4BFE-A8FE-115C093AC4D0}</Project>
+      <Name>GestionGalvanizado %28GestionGalvanizado\GestionGalvanizado%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestionPintura\GestionPintura.csproj">
+      <Project>{18131B4B-FE22-41CD-91FB-F8FB0E1C0CE7}</Project>
+      <Name>GestionPintura %28GestionPintura\GestionPintura%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestionSoldadura\GestionSoldadura.csproj">
+      <Project>{5527ADF9-BFA9-429D-A247-28D149C586E3}</Project>
+      <Name>GestionSoldadura %28GestionSoldadura\GestionSoldadura%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestionVacaciones\GestionVacaciones.csproj">
+      <Project>{BD21FA24-3836-48FC-9704-D025DDB5828F}</Project>
+      <Name>GestionVacaciones %28GestionVacaciones\GestionVacaciones%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestorPesoClientes\GestorPesoClientes.csproj">
+      <Project>{6DD83790-1A81-4F8E-A87D-E495503658AD}</Project>
+      <Name>GestorPesoClientes %28GestorPesoClientes\GestorPesoClientes%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestorTurnosTaller\GestorTurnosTaller.csproj">
+      <Project>{8CA1BCAB-7EE2-4891-9FBF-87002D6BE046}</Project>
+      <Name>GestorTurnosTaller %28GestorTurnosTaller\GestorTurnosTaller%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HorizonteAsprova\HorizonteAsprova.csproj">
+      <Project>{AF086AA9-5F92-4358-AFA4-50A8BC8A4E16}</Project>
+      <Name>HorizonteAsprova %28HorizonteAsprova\HorizonteAsprova%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Imprimacion\Imprimacion.csproj">
+      <Project>{B007B1F8-7FA4-465D-BD68-16983F5A4B3B}</Project>
+      <Name>Imprimacion %28Imprimacion\Imprimacion%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IncTornilleria\IncTornilleria.csproj">
+      <Project>{16742FE7-7A31-46ED-B39D-D527DC7F3177}</Project>
+      <Name>IncTornilleria %28IncTornilleria\IncTornilleria%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InfoExpediciones\InfoExpediciones.csproj">
+      <Project>{27AE0F63-2B84-4CF5-B658-A854F9DCFAED}</Project>
+      <Name>InfoExpediciones %28InfoExpediciones\InfoExpediciones%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InfoSoldaduraPDF\InfoSoldaduraPDF.csproj">
+      <Project>{1918C504-5444-4B7D-A743-F14ED51149CA}</Project>
+      <Name>InfoSoldaduraPDF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Inspecciones Calidad\InspeccionesTablets\InspeccionesTablets.csproj">
+      <Project>{1EBB215C-E787-4FF5-9FBB-BEE54BCE231C}</Project>
+      <Name>InspeccionesTablets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InspeccionPinturaTablet\InspeccionPinturaTablet.csproj">
+      <Project>{D3F9F72D-1902-4FFA-9477-AB29E6992907}</Project>
+      <Name>InspeccionPinturaTablet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventarioTablets\InventarioTablets.csproj">
+      <Project>{6AAF2B58-A145-4D55-BBCA-7817F393A8A6}</Project>
+      <Name>InventarioTablets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LanzamientoPendiente\LanzamientoPendiente.csproj">
+      <Project>{840DC17E-0B31-4E9A-BABE-011EE99647B7}</Project>
+      <Name>LanzamientoPendiente %28LanzamientoPendiente\LanzamientoPendiente%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lanzamientos\LanzamientoProyectos\LanzamientoProyectos.csproj">
+      <Project>{2795DECF-9394-4EF0-AB80-21CF70716543}</Project>
+      <Name>LanzamientoProyectos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LocalizacionPaquetes\LocalizacionPaquetes.csproj">
+      <Project>{44B308A8-36F2-402E-9475-2BA1D25BE818}</Project>
+      <Name>LocalizacionPaquetes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\M2Clientes\M2Clientes.csproj">
+      <Project>{72CC5B25-726C-4F51-90ED-F9167A31931F}</Project>
+      <Name>M2Clientes %28M2Clientes\M2Clientes%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModificarNC\ModificarNC.csproj">
+      <Project>{2D6033BA-2472-493C-BA29-FD735372E30A}</Project>
+      <Name>ModificarNC %28ModificarNC\ModificarNC%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PackingNuevo\PackingNuevo.csproj">
+      <Project>{3D3A7F7B-20D5-4D63-AD93-D7ACB387F890}</Project>
+      <Name>PackingNuevo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PaquetesReprocesado\PaquetesReprocesado.csproj">
+      <Project>{29586D5B-820E-43BD-B88D-E0598B139DDE}</Project>
+      <Name>PaquetesReprocesado %28PaquetesReprocesado\PaquetesReprocesado%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlanosPedidos\PlanosPedidos.csproj">
+      <Project>{284A0469-68B2-4AA2-85C9-525732AE3C5F}</Project>
+      <Name>PlanosPedidos %28PlanosPedidos\PlanosPedidos%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Proyectos Online\ProyectosOnline\ProyectosOnLine.csproj">
+      <Project>{1BE64171-4F12-4B31-A366-C4014558DD27}</Project>
+      <Name>ProyectosOnLine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProyectosSinExpedicion\ProyectosSinExpedicion.csproj">
+      <Project>{B41D90C0-D4AA-46B7-9DFE-57239590B4BA}</Project>
+      <Name>ProyectosSinExpedicion %28ProyectosSinExpedicion\ProyectosSinExpedicion%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RecepcionCamiones\RecepcionCamiones.csproj">
+      <Project>{4B832155-5994-40BE-B5DF-210DBEF20C61}</Project>
+      <Name>RecepcionCamiones %28RecepcionCamiones\RecepcionCamiones%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReclamacionesSinProyecto\ReclamacionesSinProyecto.csproj">
+      <Project>{4874A2E6-2CC0-4F04-BBB0-A04FD45EC625}</Project>
+      <Name>ReclamacionesSinProyecto %28ReclamacionesSinProyecto\ReclamacionesSinProyecto%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReservaComprasMP\ReservaComprasMP.csproj">
+      <Project>{90B26895-A0D2-4251-8AFF-01534C957E0D}</Project>
+      <Name>ReservaComprasMP %28ReservaComprasMP\ReservaComprasMP%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServicioPlanos\ServicioPlanos.csproj">
+      <Project>{918F483A-3B67-433C-87A7-3DC47E433AC6}</Project>
+      <Name>ServicioPlanos %28ServicioPlanos\ServicioPlanos%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TareasFaltanDatos\TareasFaltanDatos.csproj">
+      <Project>{7D31740C-CCC2-486F-8C4F-EE92D59A13F6}</Project>
+      <Name>TareasFaltanDatos %28TareasFaltanDatos\TareasFaltanDatos%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TennetPintura\TennetPintura.csproj">
+      <Project>{311E0390-FE23-41F2-9D7A-D26DF8575D59}</Project>
+      <Name>TennetPintura %28TareasFaltanDatos\TennetPintura\TennetPintura%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TiemposProyectos\TiemposProyectos.csproj">
+      <Project>{2B57A995-70B0-4487-8DDC-5D677B48B24B}</Project>
+      <Name>TiemposProyectos %28TiemposProyectos\TiemposProyectos%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TorresStock\TorresStock.csproj">
+      <Project>{86824305-9087-406D-B017-A6482438656C}</Project>
+      <Name>TorresStock %28TorresStock\TorresStock%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TraductorCodigos\TraductorCodigos.csproj">
+      <Project>{73F6510C-20DA-435E-993A-11E7EA7BC750}</Project>
+      <Name>TraductorCodigos %28TraductorCodigos\TraductorCodigos%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aprovisionamiento.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lanzamiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AprovisionamientoV2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+    <None Include="Resources\torre.png" />
+    <None Include="Resources\InspeccionesCalidad.PNG" />
+    <None Include="Resources\InfoSoldadura.png" />
+    <None Include="Resources\excel1.png" />
+    <None Include="Resources\paintIcon.jpg" />
+    <None Include="Resources\BuscadorNC.bmp" />
+    <None Include="Resources\buscadorNC1.png" />
+    <None Include="Resources\AppIconoGalv1.png" />
+    <Content Include="Resources\cambioTerceros.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\GestionSoldadura.png" />
+    <None Include="Resources\esquemaproyecto1.png" />
+    <Content Include="Resources\divisorlotes1.png" />
+    <Content Include="Resources\IMEDEX-2b %28F. Transparente%29.png" />
+    <None Include="Resources\inspeccionesPintura %282%29.png" />
+    <None Include="Resources\lanzamiento1.png" />
+    <Content Include="Resources\paintIcon.png" />
+    <None Include="Resources\pinturaImprimacion3.png" />
+    <Content Include="Resources\ReservaComprasMP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="itextsharp">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.mshtml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

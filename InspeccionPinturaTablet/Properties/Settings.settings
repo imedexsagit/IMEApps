@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InspeccionPinturaTablet.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PlantillaPintura" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\srvsql01\Irati2k2\DOCUMENTOS\Ofertas\OfertaIMEDEXSA_es.dotx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
