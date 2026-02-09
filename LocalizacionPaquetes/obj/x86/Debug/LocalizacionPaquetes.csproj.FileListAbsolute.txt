@@ -1,0 +1,16 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\LocalizacionPaquetes.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\LocalizacionPaquetes.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\ProyectosOnLine.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\ProyectosOnLine.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.csprojResolveAssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.LocalizacionPaquetes.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.pdb

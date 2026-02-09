@@ -1,0 +1,7 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\bin\Debug\ServicioPlanos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\bin\Debug\ServicioPlanos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.Form1.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.pdb

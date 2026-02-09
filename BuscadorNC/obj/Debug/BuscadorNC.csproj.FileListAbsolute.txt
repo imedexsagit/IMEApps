@@ -1,0 +1,9 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\BuscadorNC\bin\Debug\BuscadorNC.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\BuscadorNC\bin\Debug\BuscadorNC.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\BuscadorNC\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\BuscadorNC\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\BuscadorNC\obj\Debug\BuscadorNC.buscadorNC_MainForm.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\BuscadorNC\obj\Debug\BuscadorNC.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\BuscadorNC\obj\Debug\BuscadorNC.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\BuscadorNC\obj\Debug\BuscadorNC.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\BuscadorNC\obj\Debug\BuscadorNC.pdb

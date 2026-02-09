@@ -1,0 +1,13 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\bin\Debug\GestorPesoClientes.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\bin\Debug\GestorPesoClientes.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\obj\x86\Debug\GestorPesoClientes.GestorPesoClientes.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\obj\x86\Debug\GestorPesoClientes.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\obj\x86\Debug\GestorPesoClientes.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\obj\x86\Debug\GestorPesoClientes.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorPesoClientes\obj\x86\Debug\GestorPesoClientes.pdb

@@ -1,0 +1,16 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\GestionPintura.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\GestionPintura.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\EstadoTaller.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\EstadoTaller.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.csprojResolveAssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.GestionPintura.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.pdb

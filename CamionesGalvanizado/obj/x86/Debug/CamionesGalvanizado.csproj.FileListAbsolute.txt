@@ -1,0 +1,12 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\bin\Debug\CamionesGalvanizado.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\bin\Debug\CamionesGalvanizado.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.ResolveComReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.ExportacionCamiones.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.pdb

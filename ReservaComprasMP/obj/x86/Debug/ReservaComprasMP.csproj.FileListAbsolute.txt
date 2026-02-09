@@ -1,0 +1,11 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\bin\Debug\ReservaComprasMP.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\bin\Debug\ReservaComprasMP.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\obj\x86\Debug\ReservaComprasMP.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\obj\x86\Debug\ReservaComprasMP.ReservaComprasMP.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\obj\x86\Debug\ReservaComprasMP.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\obj\x86\Debug\ReservaComprasMP.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReservaComprasMP\obj\x86\Debug\ReservaComprasMP.pdb

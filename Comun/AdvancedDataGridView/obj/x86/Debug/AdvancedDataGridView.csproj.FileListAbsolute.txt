@@ -1,0 +1,6 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\bin\x86\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\bin\x86\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\bin\x86\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\bin\x86\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\obj\x86\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\obj\x86\Debug\AdvancedDataGridView.pdb

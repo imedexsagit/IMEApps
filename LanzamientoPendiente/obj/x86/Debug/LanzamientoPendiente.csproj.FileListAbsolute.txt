@@ -1,0 +1,11 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\bin\Debug\LanzamientoPendiente.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\bin\Debug\LanzamientoPendiente.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\obj\x86\Debug\LanzamientoPendiente.Form1.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\obj\x86\Debug\LanzamientoPendiente.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\obj\x86\Debug\LanzamientoPendiente.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\obj\x86\Debug\LanzamientoPendiente.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LanzamientoPendiente\obj\x86\Debug\LanzamientoPendiente.pdb

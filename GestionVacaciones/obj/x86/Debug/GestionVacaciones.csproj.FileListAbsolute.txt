@@ -1,0 +1,14 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\bin\Debug\GestionVacaciones.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\bin\Debug\GestionVacaciones.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.csproj.ResolveComReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.GestionVacaciones.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.pdb

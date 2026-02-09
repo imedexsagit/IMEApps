@@ -1,0 +1,11 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\bin\Debug\AutoLanzamientoProyectos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\bin\Debug\AutoLanzamientoProyectos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.AutoLanzamientoProyectos.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.pdb

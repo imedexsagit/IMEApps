@@ -1,0 +1,11 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\bin\Debug\TareasFaltanDatos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\bin\Debug\TareasFaltanDatos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\bin\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\bin\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.Form1.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.pdb

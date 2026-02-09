@@ -151,31 +151,38 @@ namespace ServicioPlanos
                             //COMPRUEBO SI YA TIENE NC,CAM O PDF, Y SI ES ASI LO COPIO EN VERSIONES ANTERIORES.
                             DateTime localDate = DateTime.Now;
                             string date_str = localDate.ToString("dd_MM_yyyy_HH_mm_ss_");
-
+                            string ficheroAux = this.buzon +"\\"+ marca + ".NC";
                             if (File.Exists(fichero_NC_new) == true && !(conjunto)) //Para los NC
                             {
-                                File.Copy(Path.Combine(directorio_FamiliaNC, extension_NC), Path.Combine(pathReemplazo, marca + date_str + ".NC"));
-                                
-                                
-                             
-                                   
-                                
+                                if (!conjunto && !File.Exists(ficheroAux))
+                                {
+                                    MessageBox.Show("ERROR: No se encuentra el NC de: "+marca, " BUZÓN");
+                                    continue;
+                                }
+                                else
+                                {
+                                    File.Copy(Path.Combine(directorio_FamiliaNC, extension_NC), Path.Combine(pathReemplazo, marca + date_str + ".NC"));
+                                }
                             }
 
                             if (File.Exists(fichero_CAM_new) == true && !(conjunto)) //Para los CAM
                             {
                                 File.Copy(Path.Combine(directorio_FamiliaNC, extension_CAM), Path.Combine(pathReemplazo, marca + date_str + ".CAM"));
                                 
-                                
-                             
                             }
 
                             if (File.Exists(directorio_FamiliaPDF + Fich.Name) == true) //Para los PDF
                             {
-
-
-                                File.Copy(Path.Combine(directorio_FamiliaPDF, Fich.Name), Path.Combine(pathReemplazo, marca + date_str + ".pdf"));
-                                mandarEmail(Environment.UserName, marca);
+                                if (!conjunto && !File.Exists(ficheroAux))
+                                {
+                                    MessageBox.Show("ERROR: No se encuentra el NC de: " + marca, " BUZÓN");
+                                    continue;
+                                }
+                                else
+                                {
+                                    File.Copy(Path.Combine(directorio_FamiliaPDF, Fich.Name), Path.Combine(pathReemplazo, marca + date_str + ".pdf"));
+                                    //mandarEmail(Environment.UserName, marca);
+                                }
                                 
                             }
 
@@ -183,7 +190,15 @@ namespace ServicioPlanos
 
                             if (File.Exists(Path.Combine(buzon, extension_NC)) == true && !(conjunto)) //Para los NC
                             {
-                                File.Copy(Path.Combine(buzon, extension_NC), Path.Combine(pathcopiaSeguridad, extension_NC));
+                                if (!conjunto && !File.Exists(ficheroAux))
+                                {
+                                    MessageBox.Show("ERROR: No se encuentra el NC de: " + marca, " BUZÓN");
+                                    continue;
+                                }
+                                else
+                                {
+                                    File.Copy(Path.Combine(buzon, extension_NC), Path.Combine(pathcopiaSeguridad, extension_NC));
+                                }
                             }
 
                             if (File.Exists(Path.Combine(buzon, extension_CAM)) == true && !(conjunto)) //Para los CAM
@@ -193,7 +208,15 @@ namespace ServicioPlanos
 
                             if (File.Exists(Path.Combine(buzon, Fich.Name)) == true) //Para los PDF
                             {
-                                File.Copy(Path.Combine(buzon, Fich.Name), Path.Combine(pathcopiaSeguridad, Fich.Name));
+                                if (!conjunto && !File.Exists(ficheroAux))
+                                {
+                                    MessageBox.Show("ERROR: No se encuentra el NC de: " + marca, " BUZÓN");
+                                    continue;
+                                }
+                                else
+                                {
+                                    File.Copy(Path.Combine(buzon, Fich.Name), Path.Combine(pathcopiaSeguridad, Fich.Name));
+                                }
                             }
 
                             //LO COPIO AHORA EN SU LUGAR DEFINITIVO.
@@ -239,7 +262,6 @@ namespace ServicioPlanos
                             if (File.Exists(Path.Combine(buzon, Fich.Name)) == true) //Para los PDF
                             {
                                 //File.Move(Path.Combine(buzon, Fich.Name), directorio_FamiliaPDF + Fich.Name);
-
                                 if (File.Exists(directorio_FamiliaPDF + Fich.Name))
                                 {
                                     File.Delete(directorio_FamiliaPDF + Fich.Name);
@@ -251,16 +273,13 @@ namespace ServicioPlanos
                                     File.Copy(Path.Combine(buzon, Fich.Name), directorio_FamiliaPDF + Fich.Name);
                                     File.Delete(Path.Combine(buzon, Fich.Name));
                                 }
-
                                 actualizarPathMarca(marca, directorio_FamiliaPDF.Substring(directorio_FamiliaPDF.IndexOf(familia)) + Fich.Name);
                                 registrarHistoricoPlano(marca, directorio_FamiliaPDF.Substring(directorio_FamiliaPDF.IndexOf(familia)) + Fich.Name, "InsPDF", "", "", Environment.UserName);
                             }
-
-                           
-
-
                         }
+                        MessageBox.Show("Buzón procesado correctamente", " BUZÓN");
                     }
+
 
                 /*
                 //Thread.Sleep(1000);  //JRegino 23/10/2012 xa que de tiempo a que se copie el fichero
@@ -674,8 +693,6 @@ namespace ServicioPlanos
             {
                 MessageBox.Show(ex.Message, " ERROR AL PROCESAR EL BUZÓN ");
             }
-
-            MessageBox.Show("Buzón procesado correctamente", " BUZÓN");
         }
 
 

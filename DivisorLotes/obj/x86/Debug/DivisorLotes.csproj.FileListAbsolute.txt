@@ -1,0 +1,14 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\bin\Debug\DivisorLotes.dll.config
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\bin\Debug\DivisorLotes.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\bin\Debug\DivisorLotes.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.DivisorLotes.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.pdb

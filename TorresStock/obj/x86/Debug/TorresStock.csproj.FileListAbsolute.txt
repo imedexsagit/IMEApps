@@ -1,0 +1,12 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\bin\Debug\TorresStock.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\bin\Debug\TorresStock.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.Form1.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.formPedido.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.pdb

@@ -1,0 +1,6 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\bin\x86\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\bin\x86\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\bin\x86\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\bin\x86\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\obj\x86\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\obj\x86\Debug\ControlAccesos.pdb

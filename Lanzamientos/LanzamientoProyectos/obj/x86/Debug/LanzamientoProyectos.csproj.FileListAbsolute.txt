@@ -1,0 +1,15 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\LanzamientoProyectos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\LanzamientoProyectos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.LanzaProyectosForm.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.pdb

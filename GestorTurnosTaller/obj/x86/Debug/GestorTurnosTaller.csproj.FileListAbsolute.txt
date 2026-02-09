@@ -1,0 +1,14 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\bin\Debug\GestorTurnosTaller.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\bin\Debug\GestorTurnosTaller.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\bin\Debug\EstadoTaller.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\bin\Debug\EstadoTaller.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.csproj.ResolveComReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.GestorTurnosTaller.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.pdb

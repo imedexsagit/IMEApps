@@ -1,0 +1,13 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\bin\Debug\GestorCategoriasCaracteristicasIngenieria.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\bin\Debug\GestorCategoriasCaracteristicasIngenieria.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\bin\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\bin\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\obj\x86\Debug\IMEDEXSA.CategoriasCaracteristicas.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\obj\x86\Debug\GestorCategoriasCaracteristicasIngenieria.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\obj\x86\Debug\GestorCategoriasCaracteristicasIngenieria.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\obj\x86\Debug\GestorCategoriasCaracteristicasIngenieria.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\GestorCategoriasCaracteristicasIngenieria\obj\x86\Debug\GestorCategoriasCaracteristicasIngenieria.pdb

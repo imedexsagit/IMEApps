@@ -1,0 +1,11 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\bin\Debug\Imprimacion.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\bin\Debug\Imprimacion.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.Imprimacion.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.pdb

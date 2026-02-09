@@ -1,0 +1,11 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\bin\Debug\TraductorCodigos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\bin\Debug\TraductorCodigos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.TraductorCodigos.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.pdb

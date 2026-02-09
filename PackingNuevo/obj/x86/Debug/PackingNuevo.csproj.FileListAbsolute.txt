@@ -1,0 +1,12 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\bin\Debug\PackingNuevo.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\bin\Debug\PackingNuevo.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.frmPaquetes.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.Prin.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.pdb

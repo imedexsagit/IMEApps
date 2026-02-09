@@ -1,0 +1,11 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\bin\Debug\TiemposProyectos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\bin\Debug\TiemposProyectos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.TiemposProyectos.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.pdb

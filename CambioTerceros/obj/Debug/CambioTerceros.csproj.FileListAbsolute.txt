@@ -1,0 +1,8 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\bin\Debug\CambioTerceros.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\bin\Debug\CambioTerceros.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.cambioTerceros.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.pdb

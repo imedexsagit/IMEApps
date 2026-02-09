@@ -1,0 +1,7 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ModificarNC\bin\Debug\ModificarNC.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ModificarNC\bin\Debug\ModificarNC.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ModificarNC\obj\x86\Debug\ModificarNC.ModificarNCyCAM.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ModificarNC\obj\x86\Debug\ModificarNC.Properties.Resources.resources
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ModificarNC\obj\x86\Debug\ModificarNC.csproj.GenerateResource.Cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ModificarNC\obj\x86\Debug\ModificarNC.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ModificarNC\obj\x86\Debug\ModificarNC.pdb
