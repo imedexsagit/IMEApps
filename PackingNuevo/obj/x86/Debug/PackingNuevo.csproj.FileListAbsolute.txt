@@ -10,3 +10,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\P
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingN.F074628A.Up2Date

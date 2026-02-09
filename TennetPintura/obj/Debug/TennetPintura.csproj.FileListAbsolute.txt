@@ -10,9 +10,12 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\bin\Debug\empr
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\bin\Debug\AdvancedDataGridView.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\bin\Debug\ControlAccesos.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\bin\Debug\Comun.Utils.pdb
-C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.csprojResolveAssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.Properties.Resources.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.tennetPintura.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\bin\Debug\Intranet.dll.config
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPi.0588E2E5.Up2Date

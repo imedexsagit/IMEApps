@@ -1,6 +1,5 @@
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\obj\x86\Debug\ImeApps.csproj.ResolveComReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\ImeApps.exe.config
-C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\obj\x86\Debug\ImeApps.csprojResolveAssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\obj\x86\Debug\ImeApps.AccesoAplicaciones.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\obj\x86\Debug\ImeApps.BotonAplicacion.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\obj\x86\Debug\ImeApps.FormElegirEmpresas.resources
@@ -33,7 +32,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\GestionVacaciones.dl
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\GestorCategoriasCaracteristicasIngenieria.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\GestorPesoClientes.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\GestorTurnosTaller.dll
-C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\HorizonteAsprova.exe
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\Imprimacion.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\IncTornilleria.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\InfoExpediciones.dll
@@ -113,3 +111,5 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\CambioTerceros.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\TennetPintura.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\Comun.Utils.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\HorizonteAsprova.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ImeApps\obj\x86\Debug\ImeApps.csprojResolveAssemblyReference.cache

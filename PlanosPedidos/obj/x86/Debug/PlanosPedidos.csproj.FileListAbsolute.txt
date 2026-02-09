@@ -14,9 +14,12 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\bin\Debug\Esta
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\bin\Debug\InfoSoldaduraPDF.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\bin\Debug\AdvancedDataGridView.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\bin\Debug\ControlAccesos.pdb
-C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\obj\x86\Debug\PlanosPedidos.csprojResolveAssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\obj\x86\Debug\PlanosPedidos.PlanosPedidos.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\obj\x86\Debug\PlanosPedidos.Properties.Resources.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\obj\x86\Debug\PlanosPedidos.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\obj\x86\Debug\PlanosPedidos.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\obj\x86\Debug\PlanosPedidos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\bin\Debug\Intranet.dll.config
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\obj\x86\Debug\PlanosPedidos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\obj\x86\Debug\PlanosPedidos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PlanosPedidos\obj\x86\Debug\PlanosPe.8786C797.Up2Date

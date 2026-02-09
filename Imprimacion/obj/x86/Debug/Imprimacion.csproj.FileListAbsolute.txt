@@ -9,3 +9,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Im
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimacion.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Imprimacion\obj\x86\Debug\Imprimac.E7147DAE.Up2Date

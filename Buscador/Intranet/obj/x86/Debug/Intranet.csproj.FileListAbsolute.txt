@@ -21,3 +21,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\De
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.Up2Date

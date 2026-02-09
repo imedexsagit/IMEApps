@@ -9,3 +9,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug\IncTorni.56BAD227.Up2Date

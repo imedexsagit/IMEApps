@@ -9,3 +9,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReclamacionesSinProyecto\obj
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReclamacionesSinProyecto\obj\x86\Debug\ReclamacionesSinProyecto.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReclamacionesSinProyecto\obj\x86\Debug\ReclamacionesSinProyecto.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReclamacionesSinProyecto\obj\x86\Debug\ReclamacionesSinProyecto.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReclamacionesSinProyecto\obj\x86\Debug\ReclamacionesSinProyecto.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReclamacionesSinProyecto\obj\x86\Debug\ReclamacionesSinProyecto.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ReclamacionesSinProyecto\obj\x86\Debug\Reclamac.E5DD870F.Up2Date

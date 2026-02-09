@@ -10,3 +10,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\To
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresStock.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TorresStock\obj\x86\Debug\TorresSt.7544D7A4.Up2Date

@@ -7,3 +7,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\D
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionG.79F78761.Up2Date

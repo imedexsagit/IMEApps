@@ -7,3 +7,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\Proyecto.CEB99E84.Up2Date

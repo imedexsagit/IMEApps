@@ -1,0 +1,9 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\obj\Debug\ControlAccesos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\obj\Debug\ControlAccesos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\obj\Debug\ControlA.F70C90E3.Up2Date
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\obj\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ControlAccesos\ControlAccesos\obj\Debug\ControlAccesos.pdb

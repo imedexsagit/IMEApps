@@ -12,3 +12,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\D
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTurnosTaller.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestorTurnosTaller\obj\x86\Debug\GestorTu.29713A8C.Up2Date

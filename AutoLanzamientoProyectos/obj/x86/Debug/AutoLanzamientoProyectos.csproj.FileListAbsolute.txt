@@ -9,3 +9,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanz.966F48A9.Up2Date

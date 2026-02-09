@@ -16,3 +16,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InventarioTablets\obj\x86\De
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InventarioTablets\obj\x86\Debug\InventarioTablets.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InventarioTablets\obj\x86\Debug\InventarioTablets.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InventarioTablets\obj\x86\Debug\InventarioTablets.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InventarioTablets\obj\x86\Debug\InventarioTablets.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InventarioTablets\obj\x86\Debug\InventarioTablets.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InventarioTablets\obj\x86\Debug\Inventar.3ACACC25.Up2Date

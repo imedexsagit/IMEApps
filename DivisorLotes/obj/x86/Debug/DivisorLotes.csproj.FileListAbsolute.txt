@@ -12,3 +12,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\D
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorLotes.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\DivisorLotes\obj\x86\Debug\DivisorL.4E9270AF.Up2Date

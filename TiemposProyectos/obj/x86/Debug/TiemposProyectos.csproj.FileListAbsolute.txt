@@ -9,3 +9,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Deb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposProyectos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TiemposProyectos\obj\x86\Debug\TiemposP.AD9D289F.Up2Date

@@ -9,3 +9,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\Aprovision
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\Aprovisi.B2D77996.Up2Date

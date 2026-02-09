@@ -10,3 +10,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\Camiones.E928A6A5.Up2Date

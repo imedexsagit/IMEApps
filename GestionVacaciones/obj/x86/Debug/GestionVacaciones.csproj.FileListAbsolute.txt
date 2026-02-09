@@ -12,3 +12,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\De
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionVacaciones.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionVacaciones\obj\x86\Debug\GestionV.D57FFEF0.Up2Date

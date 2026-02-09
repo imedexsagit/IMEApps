@@ -1,0 +1,9 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\obj\Debug\Utils.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\obj\Debug\Utils.csproj.Up2Date
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\obj\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\obj\Debug\Comun.Utils.pdb

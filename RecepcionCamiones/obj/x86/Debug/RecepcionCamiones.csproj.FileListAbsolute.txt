@@ -9,3 +9,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\RecepcionCamiones\obj\x86\De
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\RecepcionCamiones\obj\x86\Debug\RecepcionCamiones.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\RecepcionCamiones\obj\x86\Debug\RecepcionCamiones.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\RecepcionCamiones\obj\x86\Debug\RecepcionCamiones.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\RecepcionCamiones\obj\x86\Debug\RecepcionCamiones.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\RecepcionCamiones\obj\x86\Debug\RecepcionCamiones.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\RecepcionCamiones\obj\x86\Debug\Recepcio.971A78C7.Up2Date

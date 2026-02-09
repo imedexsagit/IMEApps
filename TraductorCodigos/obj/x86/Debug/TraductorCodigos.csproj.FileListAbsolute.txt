@@ -9,3 +9,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Deb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\Traducto.CE7B5738.Up2Date

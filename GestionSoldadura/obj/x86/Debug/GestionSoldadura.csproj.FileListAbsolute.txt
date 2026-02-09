@@ -6,7 +6,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\bin\Debug\C
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\bin\Debug\empresaGlobalProj.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\bin\Debug\ProyectosOnLine.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\bin\Debug\Comun.Utils.pdb
-C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionSoldadura.csprojResolveAssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionSoldadura.Form5.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionSoldadura.Form1.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionSoldadura.Form2.resources
@@ -16,3 +15,7 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Deb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionSoldadura.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionSoldadura.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionSoldadura.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\bin\Debug\ProyectosOnLine.dll.config
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionSoldadura.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionSoldadura.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionSoldadura\obj\x86\Debug\GestionS.D6DC27C9.Up2Date

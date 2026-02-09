@@ -9,3 +9,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\De
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFa.904C2F03.Up2Date

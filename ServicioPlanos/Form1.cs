@@ -100,6 +100,7 @@ namespace ServicioPlanos
             {
                    DirectoryInfo dir = new DirectoryInfo(buzon);
                     FileInfo[] Ficheros = dir.GetFiles("*.pdf");
+                bool correcto = true; 
 
                     foreach (FileInfo Fich in Ficheros)             //recorrer cada uno de los ficheros. Si existe el pdf solo o con su CAM/NC => mover a la carpeta correspondiente
                     {
@@ -152,11 +153,16 @@ namespace ServicioPlanos
                             DateTime localDate = DateTime.Now;
                             string date_str = localDate.ToString("dd_MM_yyyy_HH_mm_ss_");
                             string ficheroAux = this.buzon +"\\"+ marca + ".NC";
+                            if (marca.EndsWith(".") == true)
+                            {
+                                ficheroAux = this.buzon + "\\" + marca + "NC";
+                            }
                             if (File.Exists(fichero_NC_new) == true && !(conjunto)) //Para los NC
                             {
                                 if (!conjunto && !File.Exists(ficheroAux))
                                 {
                                     MessageBox.Show("ERROR: No se encuentra el NC de: "+marca, " BUZÓN");
+                                    correcto = false; 
                                     continue;
                                 }
                                 else
@@ -176,12 +182,13 @@ namespace ServicioPlanos
                                 if (!conjunto && !File.Exists(ficheroAux))
                                 {
                                     MessageBox.Show("ERROR: No se encuentra el NC de: " + marca, " BUZÓN");
+                                    correcto = false;
                                     continue;
                                 }
                                 else
                                 {
                                     File.Copy(Path.Combine(directorio_FamiliaPDF, Fich.Name), Path.Combine(pathReemplazo, marca + date_str + ".pdf"));
-                                    //mandarEmail(Environment.UserName, marca);
+                                    mandarEmail(Environment.UserName, marca);
                                 }
                                 
                             }
@@ -193,6 +200,7 @@ namespace ServicioPlanos
                                 if (!conjunto && !File.Exists(ficheroAux))
                                 {
                                     MessageBox.Show("ERROR: No se encuentra el NC de: " + marca, " BUZÓN");
+                                    correcto = false;
                                     continue;
                                 }
                                 else
@@ -211,6 +219,7 @@ namespace ServicioPlanos
                                 if (!conjunto && !File.Exists(ficheroAux))
                                 {
                                     MessageBox.Show("ERROR: No se encuentra el NC de: " + marca, " BUZÓN");
+                                    correcto = false;
                                     continue;
                                 }
                                 else
@@ -277,8 +286,12 @@ namespace ServicioPlanos
                                 registrarHistoricoPlano(marca, directorio_FamiliaPDF.Substring(directorio_FamiliaPDF.IndexOf(familia)) + Fich.Name, "InsPDF", "", "", Environment.UserName);
                             }
                         }
-                        MessageBox.Show("Buzón procesado correctamente", " BUZÓN");
                     }
+
+                if (correcto)
+                {
+                    MessageBox.Show("Buzón procesado correctamente", " BUZÓN");
+                }
 
 
                 /*
@@ -687,7 +700,7 @@ namespace ServicioPlanos
                     //{
                     //    this.mandarEmail(email, "Error al procesar el Buzon de Piezas.Oficina", bodyMail);
                     //}*/
-                
+
             }
             catch (Exception ex)
             {

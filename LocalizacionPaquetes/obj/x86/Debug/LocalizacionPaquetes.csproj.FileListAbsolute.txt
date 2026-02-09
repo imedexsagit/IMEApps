@@ -8,9 +8,11 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Deb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\ControlAccesos.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\empresaGlobalProj.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\bin\Debug\ProyectosOnLine.pdb
-C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.csprojResolveAssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.LocalizacionPaquetes.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.Properties.Resources.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\LocalizacionPaquetes.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\LocalizacionPaquetes\obj\x86\Debug\Localiza.731FBAC1.Up2Date

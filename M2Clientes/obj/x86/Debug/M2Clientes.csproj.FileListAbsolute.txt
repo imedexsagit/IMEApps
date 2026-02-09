@@ -6,10 +6,12 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\bin\Debug\empresa
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\bin\Debug\Comun.Utils.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\bin\Debug\empresaGlobalProj.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\bin\Debug\AdvancedDataGridView.pdb
-C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.csprojResolveAssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.Form1.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.Form2.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.Properties.Resources.resources
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\M2Clientes\obj\x86\Debug\M2Clientes.csproj.Up2Date

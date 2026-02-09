@@ -27,3 +27,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\Inspecci.452D2BC4.Up2Date

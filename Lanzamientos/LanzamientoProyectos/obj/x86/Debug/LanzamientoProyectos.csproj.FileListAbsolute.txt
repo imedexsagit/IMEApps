@@ -13,3 +13,6 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProy
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\LanzamientoProyectos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Lanzamientos\LanzamientoProyectos\obj\x86\Debug\Lanzamie.45EE0E52.Up2Date

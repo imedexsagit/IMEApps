@@ -1,0 +1,9 @@
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\bin\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\bin\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\obj\Debug\AdvancedDataGridView.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\obj\Debug\AdvancedDataGridView.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\obj\Debug\Advanced.BB233DA5.Up2Date
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\obj\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\obj\Debug\AdvancedDataGridView.pdb

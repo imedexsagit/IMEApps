@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="ImeApps.exe" version="1.3.0.558" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="ImeApps.exe" version="1.3.0.566" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="Resources\ImeApps.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>7qB1OcYXgmWpz2buiXwshWaDWzE=</dsig:DigestValue>
+        <dsig:DigestValue>iFiR7x+5yURiLDeAl6yDPYsrUcI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoLanzamientoProyectos.dll" size="42496">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoLanzamientoProyectos.dll" size="41984">
       <assemblyIdentity name="AutoLanzamientoProyectos" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>PzvkagaZbNWSmjRkfBa13urF0Y8=</dsig:DigestValue>
+        <dsig:DigestValue>WAIjbI+4BzE/HpMgkCZokocdRgM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -103,26 +103,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CamionesGalvanizado.dll" size="24576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CamionesGalvanizado.dll" size="24064">
       <assemblyIdentity name="CamionesGalvanizado" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>O2t195GYK4vqRrIYV1+DYZ/1UhU=</dsig:DigestValue>
+        <dsig:DigestValue>L7t9f6CvMd4s33SGQh5d6vyoRng=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Comun.Utils.dll" size="29696">
-      <assemblyIdentity name="Comun.Utils" version="5.6.2015.0" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Comun.Utils.dll" size="29184">
+      <assemblyIdentity name="Comun.Utils" version="5.6.2015.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>wBJ3zuhnjxWHGeFinlcHEhv6Hgs=</dsig:DigestValue>
+        <dsig:DigestValue>BlJ9lhnEBhkE6EJLZk9oUn0Usak=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -146,7 +146,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9zZOIGmWfkeLssg0W3D4Rh7jNqA=</dsig:DigestValue>
+        <dsig:DigestValue>Aj6harEA78vMieb3wFe9thqtzfc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -175,50 +175,50 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestionGalvanizado.dll" size="230400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestionGalvanizado.dll" size="229376">
       <assemblyIdentity name="GestionGalvanizado" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>2kXHwgr681BNef7mHHwxk43NVyY=</dsig:DigestValue>
+        <dsig:DigestValue>1Y70NehQNXJRWhJBAqTrqB+HJOI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestionPintura.dll" size="80896">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestionPintura.dll" size="79872">
       <assemblyIdentity name="GestionPintura" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>8MziCyXVFLEfBMkWi5AHflSV7Ww=</dsig:DigestValue>
+        <dsig:DigestValue>Jnzi9YhlGoysKiVdyChxiwyVxFI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestionSoldadura.dll" size="77312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestionSoldadura.dll" size="76288">
       <assemblyIdentity name="GestionSoldadura" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>kdpEyMZXoerTuT+HJmzPAe7GhAw=</dsig:DigestValue>
+        <dsig:DigestValue>ARbNVxr2CJ+rC6oy+szK4ElE0g8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestionVacaciones.dll" size="94720">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestionVacaciones.dll" size="93184">
       <assemblyIdentity name="GestionVacaciones" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>R+0ZK0LTTg32C1Ct3T5jpiwC40Y=</dsig:DigestValue>
+        <dsig:DigestValue>4kLcmfP28zZFhOZGWpTzyR3HB10=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -235,38 +235,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestorPesoClientes.dll" size="17920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestorPesoClientes.dll" size="17408">
       <assemblyIdentity name="GestorPesoClientes" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>kA3NQEoE07HNNGdj1OrRtJKP2Lw=</dsig:DigestValue>
+        <dsig:DigestValue>r0hQ2p1n0NIRXbbFwZVLoOmxvOY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestorTurnosTaller.dll" size="165376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GestorTurnosTaller.dll" size="164864">
       <assemblyIdentity name="GestorTurnosTaller" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>SLp4QsB4V8lbK/I4hMFFsOMf1ww=</dsig:DigestValue>
+        <dsig:DigestValue>0f05DDo3LU1bozn2KtSd0mSfUbA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HorizonteAsprova.exe" size="12288">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HorizonteAsprova.dll" size="11776">
       <assemblyIdentity name="HorizonteAsprova" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>w+UthFYSAkEYhvdux72EgTomm4I=</dsig:DigestValue>
+        <dsig:DigestValue>xNUhLqMuvv45U+T1dqWjpwueHVI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -278,31 +278,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4eiTvnQg5RlQgZ9rcTiwjTXl5B4=</dsig:DigestValue>
+        <dsig:DigestValue>FZyfkS1hRUf4CQ7747/k2yM4w2A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Imprimacion.dll" size="58880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Imprimacion.dll" size="57856">
       <assemblyIdentity name="Imprimacion" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>UGY5ojWO29wJrDsKeORasp1EeOE=</dsig:DigestValue>
+        <dsig:DigestValue>9sIf5nmeCJo5EGtfR+ltBzvcMNw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IncTornilleria.dll" size="17920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IncTornilleria.dll" size="17408">
       <assemblyIdentity name="IncTornilleria" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>uI5/wArYD/Efzt4oZ5xlj6JVK50=</dsig:DigestValue>
+        <dsig:DigestValue>YGy7MIP5mBQws+QDRQsYynQ0VCI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -314,7 +314,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>HLUy7Rfgl30QTnlhED3WCtWOCx8=</dsig:DigestValue>
+        <dsig:DigestValue>ZTYX6pOY+7uYobfKwXC8zafhAY4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -343,38 +343,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InspeccionPinturaTablet.dll" size="1262592">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InspeccionPinturaTablet.dll" size="1261568">
       <assemblyIdentity name="InspeccionPinturaTablet" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>mlxUpwo8UFBFMlNpJ8uSkl8aVTY=</dsig:DigestValue>
+        <dsig:DigestValue>dqQZGQWP7oWGvoqmqkyL1crl0I0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Intranet.dll" size="339456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Intranet.dll" size="335360">
       <assemblyIdentity name="Intranet" version="5.6.2015.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>oK9tVx0vy7p6zPK4F4hXBP7Zz9Q=</dsig:DigestValue>
+        <dsig:DigestValue>V+F1SwK9wDzdtuL2Sx77VbtzvoI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InventarioTablets.dll" size="802816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InventarioTablets.dll" size="801792">
       <assemblyIdentity name="InventarioTablets" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>akd+EJ3rj20fn80BV0dS0jeopdk=</dsig:DigestValue>
+        <dsig:DigestValue>ZkTHDe/Bm6bVaqXLiZlcFvt7iNo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -391,50 +391,50 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LanzamientoPendiente.dll" size="28160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LanzamientoPendiente.dll" size="27136">
       <assemblyIdentity name="LanzamientoPendiente" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>OrD22Xyw1hfURzMc8Rm207inhhM=</dsig:DigestValue>
+        <dsig:DigestValue>xrxbQNwwsP5iYWC6Vgb5VW8SMrQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LanzamientoProyectos.dll" size="155136">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LanzamientoProyectos.dll" size="152576">
       <assemblyIdentity name="LanzamientoProyectos" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>C7C/ewAlwQh91Rqu5OLkCTFXt/4=</dsig:DigestValue>
+        <dsig:DigestValue>FaB2LdTFnSGQo2pc1RcI5MElIlc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LocalizacionPaquetes.dll" size="33792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LocalizacionPaquetes.dll" size="33280">
       <assemblyIdentity name="LocalizacionPaquetes" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>90sP1JEuPHHKrf1+z/zhqmAwKJs=</dsig:DigestValue>
+        <dsig:DigestValue>vlrtwmgafo7vccYk40IEEuXHTe0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="M2Clientes.dll" size="29184">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="M2Clientes.dll" size="28672">
       <assemblyIdentity name="M2Clientes" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>1XpROp3IUK9TcyaUI6zj7kr35p0=</dsig:DigestValue>
+        <dsig:DigestValue>yLEu6ilvgQ+3OZmP/B+EN1KgFIk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -463,38 +463,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PackingNuevo.dll" size="212992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PackingNuevo.dll" size="212480">
       <assemblyIdentity name="PackingNuevo" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>x1kQFs23O4WaMk8cE+3hdYw1jH4=</dsig:DigestValue>
+        <dsig:DigestValue>BCMWQ1LA6WjPg14hZqDtk2sSfV8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PaquetesReprocesado.dll" size="91136">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PaquetesReprocesado.dll" size="90624">
       <assemblyIdentity name="PaquetesReprocesado" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NCCx9QBbXwt9VDy3M4KqUWMDlOE=</dsig:DigestValue>
+        <dsig:DigestValue>MPomhiAx9utIYD4CN0mX/HhJh20=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PlanosPedidos.dll" size="34816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PlanosPedidos.dll" size="34304">
       <assemblyIdentity name="PlanosPedidos" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>aDAuTQg8Ed2XSkjVPNG9t6CtaP8=</dsig:DigestValue>
+        <dsig:DigestValue>tlRYiF7y7LGBx2Db+0XuarVWu7Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -523,14 +523,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProyectosSinExpedicion.dll" size="142336">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProyectosSinExpedicion.dll" size="141824">
       <assemblyIdentity name="ProyectosSinExpedicion" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>XwSfH6OBbEc6GLY70hvXR8qDzcY=</dsig:DigestValue>
+        <dsig:DigestValue>JP/npDdJ63wD++sWc3dFdwZhpT4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -542,7 +542,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>I3aOFssGuusoEmW1Qvmpn59TBPE=</dsig:DigestValue>
+        <dsig:DigestValue>5+HD1ZdKHrl4JSEprzL6aiv/fIM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -554,19 +554,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>WidTXCmrmCXPZAoAdOb/Ktg8F1A=</dsig:DigestValue>
+        <dsig:DigestValue>Bm0lwTqRy3C4irNSt6xl3mp2W5Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReservaComprasMP.dll" size="53248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReservaComprasMP.dll" size="52736">
       <assemblyIdentity name="ReservaComprasMP" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>+yOXCII/XuKguJkglBU5K1Zb3Uw=</dsig:DigestValue>
+        <dsig:DigestValue>Ytww87xAXpL9+aw661PfXmcmtEI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -578,7 +578,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>5ywpZm4kFbKJH8xerDLL31XbYm4=</dsig:DigestValue>
+        <dsig:DigestValue>HMS2TsXmLM4aZ4pfd3S4bY9/oio=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -607,38 +607,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TareasFaltanDatos.dll" size="32768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TareasFaltanDatos.dll" size="32256">
       <assemblyIdentity name="TareasFaltanDatos" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>XdFrdoYwtuxHx1sBKiLFna53w9k=</dsig:DigestValue>
+        <dsig:DigestValue>jmtoZYDRcDzK9wHI5Loh9FdU9zc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TennetPintura.dll" size="193536">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TennetPintura.dll" size="193024">
       <assemblyIdentity name="TennetPintura" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>m5yMp92mg5TNyDA+/Xwi/0/xIgg=</dsig:DigestValue>
+        <dsig:DigestValue>UOIflwCKy43ryChCesbcDkjuXt8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TiemposProyectos.dll" size="33792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TiemposProyectos.dll" size="33280">
       <assemblyIdentity name="TiemposProyectos" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>kpfdzLjw9CjmBCsSvjNBQ7mPXaI=</dsig:DigestValue>
+        <dsig:DigestValue>Ejy5B7SzzGA7CVbAy2qc3dKG7Z4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -650,19 +650,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Gxerx9zjQXU2hVT1PRrennbwjwU=</dsig:DigestValue>
+        <dsig:DigestValue>v8nViw87+yzsPqkn94dZZ9PKZXs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TraductorCodigos.dll" size="23040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TraductorCodigos.dll" size="22528">
       <assemblyIdentity name="TraductorCodigos" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>fePuu5LhdeRrfOfi/XgOpdfNiNM=</dsig:DigestValue>
+        <dsig:DigestValue>cvb+kApN6vTlQyR+L2IXP8M/ots=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
