@@ -36,6 +36,7 @@ namespace GestionSoldadura
         private DataGridView.HitTestInfo hitTestInfo;
         public string valorCliente = "";
         public string valorPedido = "";
+        private string connString = "Data Source=SRVDESARROLLO;Initial Catalog=gg;User ID=gg;Password=ostia";
 
 
         public Form1()
@@ -57,7 +58,7 @@ namespace GestionSoldadura
             //Obtenemos las personas con permiso de escritura y habilitamos
 
 
-            if (Environment.UserName == "francisco.rodrigo" || Environment.UserName == "carlos.sanchez" || Environment.UserName == "calidad.soldadura")
+            if (Environment.UserName == "francisco.rodrigo" || Environment.UserName == "carlos.casquero" || Environment.UserName == "calidad.soldadura")
             {
                 button4.Visible = true;
             }
@@ -70,8 +71,6 @@ namespace GestionSoldadura
             string strsq;
             string user = Environment.UserName;
 
-
-            string connString = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
             DataTable table = new DataTable();
 
             conexin = new SqlConnection(connString);
@@ -201,9 +200,7 @@ namespace GestionSoldadura
                 strsql = "SELECT CODLANZA,CAST(CODLANZA AS Varchar(5))+'      '+ PROYECTO AS PROYECTO FROM TC_LANZA WHERE (CODEMP = '3') and VALIDADO = 'S' ORDER BY CODLANZA DESC";
 
                 comando = new SqlCommand(strsql, conexion);
-
-
-
+                
                 adapter = new SqlDataAdapter(comando);
 
                 comando.CommandText = strsql;
@@ -220,7 +217,6 @@ namespace GestionSoldadura
                 foreach (DataRow row3 in table.Rows)
                 {
                     comboProyectos.Items.Add(row3["PROYECTO"]);
-
                 }
 
                 Cursor.Current = Cursors.Default;
@@ -228,7 +224,6 @@ namespace GestionSoldadura
         }
         private void comboProyectos_SelectedIndexChanged(object sender, System.EventArgs e)
         {
-
             // Restauramos los valores cada vez que se seleciona un nuevo proyecto
             Empresa = empresaGlobal.empresaID;//"3";
             Usuario = Environment.UserName;
@@ -260,7 +255,7 @@ namespace GestionSoldadura
             SqlConnection conexion = null;
             SqlCommand comando = null;
             string strsql;
-            string connString = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
+
             DataTable table = new DataTable();
             conexion = new SqlConnection(connString);
             conexion.Open();
@@ -289,22 +284,12 @@ namespace GestionSoldadura
                     listBox1.Items.Add(row["NUMPED"]);
                    
                 }
+                valorCliente = Convert.ToString(row["RTERCERO"]);
 
-                
-                
-                    valorCliente = Convert.ToString(row["RTERCERO"]);
-
-                   // int UT = Convert.ToInt32(row["UT"]);
-
-
-                   // if (UT > 0)
-                   // {
-                   // }
-
-
-                
-                
-
+                // int UT = Convert.ToInt32(row["UT"]);
+                // if (UT > 0)
+                // {
+                // }
             }
 
             listBox2.Items.Add(valorCliente);//Se muestra el cliente al final, ya que siempre es el mismo
@@ -319,9 +304,8 @@ namespace GestionSoldadura
             SqlCommand comando1 = null;
             string strsql1;
             Int32 estadoOF = 2; // Todas
-            string connString1 = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
             DataTable table1 = new DataTable();
-            conexion1 = new SqlConnection(connString1);
+            conexion1 = new SqlConnection(connString);
             conexion1.Open();
 
             //Se marca por defecto todas, ya que en principio no es necesario que selecione abiertas o cerradas, pero se deja proparado por si lo necesita en un futuro
@@ -452,9 +436,8 @@ namespace GestionSoldadura
             SqlConnection conexion2 = null;
             SqlCommand comando2 = null;
             string strsql2;
-            string connString2 = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
             DataTable table2 = new DataTable();
-            conexion2 = new SqlConnection(connString2);
+            conexion2 = new SqlConnection(connString);
             conexion2.Open();
             SqlDataAdapter adapter2;
 
@@ -484,15 +467,13 @@ namespace GestionSoldadura
             calculaRestantes();
             label27.Text = obtenerPlanCalidad(proyecto);
 
-
             //Obtener los datos de los informes
-     
+            
             SqlConnection conexion3 = null;
             SqlCommand comando3 = null;
             string strsql3;
-            string connString3 = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
             DataTable table3 = new DataTable();
-            conexion3 = new SqlConnection(connString3);
+            conexion3 = new SqlConnection(connString);
             conexion3.Open();
             SqlDataAdapter adapter3;
 
@@ -509,7 +490,6 @@ namespace GestionSoldadura
 
             for (int i = 0; i < table3.Rows.Count; i++) //Mostramos los datos de los informes
             {
-               
                bool informe = Convert.ToBoolean(table3.Rows[i]["informes"]);
                checkBox2.Checked = informe;
 
@@ -521,11 +501,295 @@ namespace GestionSoldadura
 
                bool ut = Convert.ToBoolean(table3.Rows[i]["ut"]);
                checkBox5.Checked = ut;
-                
             }
         }
+        // CARLOS CASQUERO 04/03/2026 - Se añade esta ejecución para que puedan buscar proyectos directamente escribiendo el número y pulsando Enter
+        private void comboProyectos_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                // Restauramos los valores cada vez que se seleciona un nuevo proyecto
+                Empresa = empresaGlobal.empresaID;//"3";
+                Usuario = Environment.UserName;
+                TotalCantidad = 0;
+                TotalMT = 0;
+                TotalVT = 0;
+                TotalUT = 0;
+                TotalDM = 0;
+                TotalRX = 0;
+                TotalMarcaUT = 0;
+                TotalMarcaMT = 0;
+                listBox1.Items.Clear();
+                listBox2.Items.Clear();
+                string valor = comboProyectos.Text;
+                proyecto = valor;
+
+                btn_ExcelUT.Enabled = true;
+                btn_excelVT.Enabled = true;
+                btn_excelMT.Enabled = true;
+
+                checkBox1.Checked = false;
+                checkBox2.Checked = false;
+                checkBox3.Checked = false;
+                checkBox4.Checked = false;
+                checkBox5.Checked = false;
 
 
+                SqlConnection conexion = null;
+                SqlCommand comando = null;
+                string strsql;
+
+                strsql = " SELECT PROYECTO FROM TC_LANZA WHERE CODEMP='"+ Empresa+"' AND CODLANZA="+proyecto;
+                conexion = new SqlConnection(connString);
+                conexion.Open();
+                comando = new SqlCommand(strsql, conexion);
+                string nombreProyecto = comando.ExecuteScalar().ToString(); 
+
+                comboProyectos.Text = proyecto + " " +nombreProyecto;
+
+                conexion.Close(); 
+
+                DataTable table = new DataTable();
+                conexion = new SqlConnection(connString);
+                conexion.Open();
+
+                strsql = " SELECT DISTINCT TC_LANZA_PEDLIN.NUMPED, T_ORDTER.RTERCERO  FROM  TC_LANZA_PEDLIN INNER JOIN T_ORDTER ";
+                strsql = strsql + "ON TC_LANZA_PEDLIN.NUMPED = T_ORDTER.NUMPED  WHERE ";
+                strsql = strsql + "TC_LANZA_PEDLIN.CODEMP ='" + Empresa + "'  AND TC_LANZA_PEDLIN.CODLANZA = " + proyecto + "   ORDER BY TC_LANZA_PEDLIN.NUMPED;";
+
+                comando = new SqlCommand(strsql, conexion);
+                SqlDataAdapter adapter;
+                adapter = new SqlDataAdapter(comando);
+                comando.CommandText = strsql;
+                table.Columns.Clear();
+                table.Clear();
+                adapter.Fill(table);
+
+                conexion.Close();
+
+                foreach (DataRow row in table.Rows)
+                {
+                    if (Convert.ToInt32(row["NUMPED"]) != 0)
+                    {
+                        listBox1.Items.Add(row["NUMPED"]);
+
+                    }
+                    valorCliente = Convert.ToString(row["RTERCERO"]);
+                }
+
+                listBox2.Items.Add(valorCliente);//Se muestra el cliente al final, ya que siempre es el mismo
+
+                if (listBox1.Items.Count > 0)
+                {
+                    valorPedido = listBox1.Items[0].ToString();
+                }
+
+                // Se muestra los datos del proyecto en el DataGridView
+                SqlConnection conexion1 = null;
+                SqlCommand comando1 = null;
+                string strsql1;
+                Int32 estadoOF = 2; // Todas
+                DataTable table1 = new DataTable();
+                conexion1 = new SqlConnection(connString);
+                conexion1.Open();
+
+                //Se marca por defecto todas, ya que en principio no es necesario que selecione abiertas o cerradas, pero se deja proparado por si lo necesita en un futuro
+
+
+                strsql1 = "EXEC gestionSoldadura '" + Empresa + "','" + proyecto + "','" + Usuario + "','" + 2 + "','" + valorCliente + "'";
+                comando1 = new SqlCommand(strsql1, conexion1);
+                adapter = new SqlDataAdapter(comando1);
+                comando1.CommandText = strsql1;
+                table1.Columns.Clear();
+                table1.Clear();
+                adapter.Fill(table1);
+                dataGridView2.DataSource = table1;
+                this.dataGridView2.Columns[0].Visible = false; // NO visulizamos cliente
+                this.dataGridView2.Columns[2].Visible = false; // NO visulizamos ORDFAB
+                this.dataGridView2.Columns[10].Visible = false; // No visulizamos marcarUT
+                this.dataGridView2.Columns[11].Visible = false; // No visulizamos marcarMT
+                dataGridView2.AllowUserToAddRows = false;
+
+                foreach (DataGridViewRow row in dataGridView2.Rows)
+                { // Ponemos en amarillo los codigos que tengan marcadosUT y calculamos Totales
+                    try
+                    {
+                        DataGridViewCellStyle style = new DataGridViewCellStyle();
+
+                        style.Font = new Font(dataGridView2.Font, FontStyle.Bold);
+
+
+                        // aqui pongo en verde si el valor es positivo
+
+                        if (Convert.ToInt32(row.Cells[4].Value.ToString()) > 0)
+                        {
+
+                            row.Cells[4].Style = style;
+                            row.Cells[4].Style.BackColor = Color.GreenYellow;
+
+                        }
+                        if (Convert.ToInt32(row.Cells[5].Value.ToString()) > 0)
+                        {
+
+                            row.Cells[5].Style = style;
+                            row.Cells[5].Style.BackColor = Color.GreenYellow;
+
+                        }
+                        if (Convert.ToInt32(row.Cells[6].Value.ToString()) > 0)
+                        {
+
+                            row.Cells[6].Style = style;
+                            row.Cells[6].Style.BackColor = Color.GreenYellow;
+
+                        }
+                        if (Convert.ToInt32(row.Cells[7].Value.ToString()) > 0)
+                        {
+
+                            row.Cells[7].Style = style;
+                            row.Cells[7].Style.BackColor = Color.GreenYellow;
+
+                        }
+                        if (Convert.ToInt32(row.Cells[8].Value.ToString()) > 0)
+                        {
+
+                            row.Cells[8].Style = style;
+                            row.Cells[8].Style.BackColor = Color.GreenYellow;
+
+                        }
+                        if (Convert.ToInt32(row.Cells[9].Value.ToString()) > 0)
+                        {
+
+                            row.Cells[9].Style = style;
+                            row.Cells[9].Style.BackColor = Color.GreenYellow;
+
+                        }
+
+                        TotalCantidad = TotalCantidad + Int32.Parse(row.Cells[4].Value.ToString());
+                        TotalMT = TotalMT + Int32.Parse(row.Cells[5].Value.ToString());
+                        TotalVT = TotalVT + Int32.Parse(row.Cells[6].Value.ToString());
+                        TotalUT = TotalUT + Int32.Parse(row.Cells[7].Value.ToString());
+                        TotalDM = TotalDM + Int32.Parse(row.Cells[8].Value.ToString());
+                        TotalRX = TotalRX + Int32.Parse(row.Cells[9].Value.ToString());
+
+                        if (Boolean.Parse(row.Cells[10].Value.ToString()) == true)
+                            TotalMarcaUT = TotalMarcaUT + Convert.ToInt32(row.Cells[4].Value);
+
+                        if (Boolean.Parse(row.Cells[11].Value.ToString()) == true)
+                            TotalMarcaMT = TotalMarcaMT + Convert.ToInt32(row.Cells[4].Value);
+
+                        if (row.Cells[10].Value.Equals(true))
+                        {
+                            row.Cells[1].Style.BackColor = Color.Yellow;
+                        }
+
+                        if (row.Cells[11].Value.Equals(true))
+                        {
+                            row.Cells[1].Style.BackColor = Color.Orange;
+                        }
+
+                        if (row.Cells[11].Value.Equals(true) && row.Cells[10].Value.Equals(true))
+                        {
+                            row.Cells[1].Style.BackColor = Color.Red;
+                        }
+
+                    }
+                    catch (ArgumentOutOfRangeException outOfRange)
+                    {
+                        Console.WriteLine("Error: {0}", outOfRange.Message);
+                    }
+                }
+
+                Totales.Text = "Totales del proyecto " + proyecto;
+                textBoxCantidad.Text = Convert.ToString(TotalCantidad);
+                textBoxMT.Text = Convert.ToString(TotalMT);
+                textBoxVT.Text = Convert.ToString(TotalVT);
+                textBoxUT.Text = Convert.ToString(TotalUT);
+                textBoxDM.Text = Convert.ToString(TotalDM);
+                textBoxRX.Text = Convert.ToString(TotalRX);
+                textBoxMarcaUT.Text = Convert.ToString(TotalMarcaUT);
+                textBoxMarcaMT.Text = Convert.ToString(TotalMarcaMT);
+
+                labelMT.Text = Convert.ToString(TotalMT);
+                labelVT.Text = Convert.ToString(TotalVT);
+                labelUT.Text = Convert.ToString(TotalUT);
+                labelDM.Text = Convert.ToString(TotalDM);
+                labelRX.Text = Convert.ToString(TotalRX);
+
+                conexion1.Close();
+
+                //Obtenemos los ensayos del proyecto
+                SqlConnection conexion2 = null;
+                SqlCommand comando2 = null;
+                string strsql2;
+                DataTable table2 = new DataTable();
+                conexion2 = new SqlConnection(connString);
+                conexion2.Open();
+                SqlDataAdapter adapter2;
+
+                strsql2 = "SELECT MTEnsayo, VTEnsayo, UTEnsayo, DMEnsayo , RXEnsayo, finalizado, observacion  FROM  TC_SoldaduraProyecto WHERE proyecto = " + proyecto;
+
+                comando2 = new SqlCommand(strsql2, conexion2);
+                adapter2 = new SqlDataAdapter(comando2);
+                comando2.CommandText = strsql2;
+                table2.Columns.Clear();
+                table2.Clear();
+                adapter2.Fill(table2);
+
+                conexion.Close();
+
+                for (int i = 0; i < table2.Rows.Count; i++) //Mostramos los ensayos
+                {
+                    ensayosMT.Text = table2.Rows[i]["MTEnsayo"].ToString();
+                    ensayosVT.Text = table2.Rows[i]["VTEnsayo"].ToString();
+                    ensayosUT.Text = table2.Rows[i]["UTEnsayo"].ToString();
+                    ensayosDM.Text = table2.Rows[i]["DMEnsayo"].ToString();
+                    ensayosRX.Text = table2.Rows[i]["RXEnsayo"].ToString();
+                    finalizado = Convert.ToBoolean(table2.Rows[i]["finalizado"]);
+                    checkBox1.Checked = finalizado;
+                    richTextBox1.Text = table2.Rows[i]["observacion"].ToString();
+                }
+
+                calculaRestantes();
+                label27.Text = obtenerPlanCalidad(proyecto);
+
+                //Obtener los datos de los informes
+
+                SqlConnection conexion3 = null;
+                SqlCommand comando3 = null;
+                string strsql3;
+                DataTable table3 = new DataTable();
+                conexion3 = new SqlConnection(connString);
+                conexion3.Open();
+                SqlDataAdapter adapter3;
+
+                strsql3 = "SELECT informes,mt,vt,ut  FROM  TC_SoldaduraProyecto_DatosInformes WHERE proyecto = " + proyecto + " and codEmp=" + Empresa;
+
+                comando3 = new SqlCommand(strsql3, conexion3);
+                adapter3 = new SqlDataAdapter(comando3);
+                comando3.CommandText = strsql3;
+                table3.Columns.Clear();
+                table3.Clear();
+                adapter3.Fill(table3);
+
+                conexion3.Close();
+
+                for (int i = 0; i < table3.Rows.Count; i++) //Mostramos los datos de los informes
+                {
+                    bool informe = Convert.ToBoolean(table3.Rows[i]["informes"]);
+                    checkBox2.Checked = informe;
+
+                    bool mt = Convert.ToBoolean(table3.Rows[i]["mt"]);
+                    checkBox3.Checked = mt;
+
+                    bool vt = Convert.ToBoolean(table3.Rows[i]["vt"]);
+                    checkBox4.Checked = vt;
+
+                    bool ut = Convert.ToBoolean(table3.Rows[i]["ut"]);
+                    checkBox5.Checked = ut;
+                }
+            }
+        }
 
         private void abrirTodoProyectos_Click(object sender, EventArgs e)
         {
@@ -537,14 +801,11 @@ namespace GestionSoldadura
 
         private void calculaRestantes()
         {
-
             calcularMT();
             calcularVT();
             calcularUT();
             calcularDM();
             calcularRX();
-
-
         }
 
         private void calcularMT()
@@ -862,12 +1123,9 @@ namespace GestionSoldadura
             {
                int indice =  row.Index;
                marcarUT(indice);
-                }
-
-           
-                this.comboProyectos_SelectedIndexChanged(sender, e);
-
+            }
             
+            this.comboProyectos_SelectedIndexChanged(sender, e);  
         }
 
         public void marcarUT(int indice)
@@ -879,8 +1137,6 @@ namespace GestionSoldadura
 
                 if (this.dataGridView2.Rows[indice].Cells[1].Style.BackColor == Color.Yellow || this.dataGridView2.Rows[indice].Cells[1].Style.BackColor == Color.Red)
                 {
-
-
                     this.dataGridView2.Rows[indice].Cells[1].Style.BackColor = Color.Blue;
                     this.dataGridView2.Rows[indice].Cells[1].Style.ForeColor = Color.White;
                     marcarut = 0;
@@ -908,10 +1164,9 @@ namespace GestionSoldadura
                 SqlCommand comando2 = null;
                 string strsql2;
 
-                string connString2 = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
                 DataTable table2 = new DataTable();
 
-                conexion2 = new SqlConnection(connString2);
+                conexion2 = new SqlConnection(connString);
                 conexion2.Open();
 
                 SqlDataAdapter adapter2;
@@ -919,8 +1174,6 @@ namespace GestionSoldadura
                 strsql2 = "UPDATE TC_Soldadura set marcaUT= " + Convert.ToString(marcarut);
                 strsql2 = strsql2 + " where proyecto = " + proyecto + " AND OrdFab= " + ordFab;
                 comando2 = new SqlCommand(strsql2, conexion2);
-
-
 
                 System.Diagnostics.Debug.WriteLine(" La query que se va a hacer es: " + strsql2);
 
@@ -932,10 +1185,9 @@ namespace GestionSoldadura
                 adapter2.Fill(table2);
 
                 conexion2.Close();
-               
-
             }
         }
+
         private void modificarDatoToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -946,11 +1198,6 @@ namespace GestionSoldadura
             Form3 form3 = new Form3(valor);
             form3.pasado += new Form3.pasarDato(Ejecutar);
             form3.ShowDialog();
-
-
-
-
-
         }
 
         public void Ejecutar(string valor)
@@ -1035,7 +1282,6 @@ namespace GestionSoldadura
             SqlCommand comando = null;
             string strsql;
 
-            string connString = "Data Source=srvsql02;Initial Catalog=imedexsa_intranet;User ID=gg;Password=ostia";
             DataTable table = new DataTable();
 
             conexion = new SqlConnection(connString);
@@ -1371,10 +1617,10 @@ namespace GestionSoldadura
             SqlCommand comando2 = null;
             string strsql2;
 
-            string connString2 = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
+
             DataTable table2 = new DataTable();
 
-            conexion2 = new SqlConnection(connString2);
+            conexion2 = new SqlConnection(connString);
             conexion2.Open();
 
             SqlDataAdapter adapter2;
@@ -1418,17 +1664,11 @@ namespace GestionSoldadura
         {
 
              foreach (DataGridViewRow row in this.dataGridView2.SelectedRows)
-            {
+             {
                int indice =  row.Index;
                marcarMT(indice);
-                }
-
-           
-                this.comboProyectos_SelectedIndexChanged(sender, e);
-
-            
-
-            
+             }
+             this.comboProyectos_SelectedIndexChanged(sender, e);
         }
 
         public void marcarMT(int indice)
@@ -1470,10 +1710,10 @@ namespace GestionSoldadura
                 SqlCommand comando2 = null;
                 string strsql2;
 
-                string connString2 = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
+
                 DataTable table2 = new DataTable();
 
-                conexion2 = new SqlConnection(connString2);
+                conexion2 = new SqlConnection(connString);
                 conexion2.Open();
 
                 SqlDataAdapter adapter2;
@@ -1524,7 +1764,6 @@ namespace GestionSoldadura
             }
 
             return plan;
-
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -1535,9 +1774,6 @@ namespace GestionSoldadura
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-
-
             // PRIMERO RECORREMOS EL  DATESET Y GUARDAMOS LAS FILAS QUE TENGAN ALGUN CAMBIO*
             Cursor.Current = Cursors.WaitCursor;
 
@@ -1545,7 +1781,6 @@ namespace GestionSoldadura
             SqlCommand comando = null;
             string strsql;
 
-            string connString = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
 
             DataTable table = new DataTable();
 
@@ -1606,9 +1841,8 @@ namespace GestionSoldadura
             SqlConnection conexion2 = null;
             SqlCommand comando2 = null;
             string strsql2;
-            string connString2 = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
             DataTable table2 = new DataTable();
-            conexion2 = new SqlConnection(connString2);
+            conexion2 = new SqlConnection(connString);
             conexion2.Open();
             SqlDataAdapter adapter2;
 
@@ -1660,10 +1894,9 @@ namespace GestionSoldadura
             SqlCommand comando2 = null;
             string strsql2;
 
-            string connString2 = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
             DataTable table2 = new DataTable();
 
-            conexion2 = new SqlConnection(connString2);
+            conexion2 = new SqlConnection(connString);
             conexion2.Open();
 
             SqlDataAdapter adapter2;

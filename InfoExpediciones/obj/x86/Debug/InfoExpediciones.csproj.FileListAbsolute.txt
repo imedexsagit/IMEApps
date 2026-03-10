@@ -12,3 +12,17 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InfoExpediciones\obj\x86\Deb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpediciones.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpediciones.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpe.C8AC12AD.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\bin\Debug\InfoExpediciones.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\bin\Debug\InfoExpediciones.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\bin\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\bin\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpediciones.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpediciones.InfoExp.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpediciones.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpediciones.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpediciones.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpe.C8AC12AD.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpediciones.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoExpediciones\obj\x86\Debug\InfoExpediciones.pdb

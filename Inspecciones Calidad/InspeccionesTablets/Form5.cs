@@ -16,7 +16,7 @@ namespace InspeccionesTablets
             InitializeComponent();
 
 
-            if (Environment.UserName.Equals("victor.alvarez") || Environment.UserName.Equals("carlos.sanchez") || Environment.UserName.Equals("angel.Gonzalez") || Environment.UserName.Equals("joseluis.garcia") || Environment.UserName.Equals("tomas.fernandez"))
+            if (Environment.UserName.Equals("victor.alvarez") || Environment.UserName.Equals("carlos.casquero") || Environment.UserName.Equals("angel.Gonzalez") || Environment.UserName.Equals("joseluis.garcia") || Environment.UserName.Equals("tomas.fernandez"))
             {
                 bindingNavigatorDeleteItem.Visible = true;
             }

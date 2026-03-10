@@ -30,3 +30,35 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\Inspecci.452D2BC4.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\bin\Debug\InspeccionPinturaTablet.dll.config
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\bin\Debug\InspeccionPinturaTablet.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\bin\Debug\InspeccionPinturaTablet.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.FormMedidas.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.elegirEmpresa.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form5galvanizado.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form1.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form2.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form3.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form3Test.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form5.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form5paquete.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form6.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form6Test.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form7.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Form8Cliente.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.FormPrincipal.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Forms4.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Forms8.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\Inspecci.452D2BC4.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InspeccionPinturaTablet\obj\x86\Debug\InspeccionPinturaTablet.pdb

@@ -24,3 +24,29 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\De
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\Intranet.dll.config
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\Intranet.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\Intranet.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Interop.VBIDE.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.ResolveComReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.CrearCodigo.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.elegirColsInforme.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.Familia_Categoria.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.ImportarCodigo.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.Intranet.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.VisorWeb.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.csproj.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Buscador\Intranet\obj\x86\Debug\Intranet.pdb

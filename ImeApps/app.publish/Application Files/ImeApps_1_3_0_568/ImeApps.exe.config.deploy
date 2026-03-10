@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<configuration>
+
+  <configSections>
+  </configSections>
+
+
+  <!--<runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      -->
+  <!--funcion de la versión de Tekla que se ejecute, habrá que modificar el valor newVersion. Ej: 20.0.0.0
+        El valor oldVersion no hay que modificarlo ya que es la versión de las librerías referenciadas en el proyecto.
+      -->
+  <!--
+
+
+    <dependentAssembly>
+        <assemblyIdentity name="Tekla.Structures" publicKeyToken="2f04dbe497b71114" culture="neutral"/>
+        <bindingRedirect oldVersion="19.1.0.0" newVersion="20.0.0.0"/>  
+      </dependentAssembly>
+
+      <dependentAssembly>
+        <assemblyIdentity name="Tekla.Structures.Model" publicKeyToken="2f04dbe497b71114" culture="neutral"/>
+        <bindingRedirect oldVersion="19.1.0.0" newVersion="20.0.0.0"/>
+      </dependentAssembly>
+
+      <dependentAssembly>
+        <assemblyIdentity name="Tekla.Structures.Catalogs" publicKeyToken="2f04dbe497b71114" culture="neutral"/>
+        <bindingRedirect oldVersion="19.1.0.0" newVersion="20.0.0.0"/>
+      </dependentAssembly>
+
+    </assemblyBinding>
+  </runtime>-->
+
+
+
+
+
+
+
+
+  <appSettings>
+    <add key="EMPRESA" value="3"/>
+    <add key="correo" value="rgomez@imedexsa.es"/>
+    <!-- srvsql02  srvdesarrollo -->
+	  <!--<add key="ggConnectionString" value="Data Source=SRVDESARROLLO;Initial Catalog=gg;uid=gg;pwd=ostia;MultipleActiveResultSets=True"/>-->
+	 <add key="ggConnectionString" value="Data Source=srvsql02;Initial Catalog=gg;uid=gg;pwd=ostia;MultipleActiveResultSets=True"/>
+
+    
+    <add key="url_DestinoPlanos" value="\\srvapps01\pdftmpescritura$"/>
+    <!--Estado Taller-->
+    <add key="TiempoRefresco" value="1800000"/><!--Ya no se usa en EstadoTaller-->
+    <add key="TiempoBorrado" value= "1810000"/><!--Ya no se usa en EstadoTaller-->
+
+
+
+    <!---Proyectos Online-->
+    <add key="Users_fichar_piezas" value="esteban, jredondo, alvaro.gutierrez, daniel.solis, mmillan, cecilio.perez, tomas.fernandez, daniel.santano,carlosr.garcia,alberto.yuguero,susana.alonso,antonio.calderon,josemanuel.romero,felix.marcos,alfredo.hernandez,carlos.casquero,victor.rodriguez,juanantonio.rivero,juanramon.alvarez,produccion.medeca,angel.garcia,roberto.gomez,operarios.tn"/>
+    <add key="Operario" value="-3"/>
+    <add key="TimeOutConsulta" value="100"/>
+    <add key="WebService_Planos" value="http://swplanos/Service.asmx"/>
+    <add key="url_DestinoPlanos" value="\\srvapps01\pdftmpescritura$"/>
+
+    <!--<add key="CodigoPendienteDesarrollo" value="PendienteDelinear"/>-->
+  </appSettings>
+
+
+
+<system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="ServiceSoap"/>
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="http://swplanos/Service.asmx" binding="basicHttpBinding" bindingConfiguration="ServiceSoap" contract="WebService_Planos.ServiceSoap" name="ServiceSoap"/>
+    </client>
+  </system.serviceModel>
+
+
+
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0,Profile=Client"/></startup></configuration>

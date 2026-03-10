@@ -5,3 +5,12 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\obj\x86\Debug
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ServicioPlanos\bin\Debug\ServicioPlanos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ServicioPlanos\bin\Debug\ServicioPlanos.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.Form1.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ServicioPlanos\obj\x86\Debug\ServicioPlanos.pdb

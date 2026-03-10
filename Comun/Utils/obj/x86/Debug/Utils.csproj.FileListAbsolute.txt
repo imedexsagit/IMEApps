@@ -4,3 +4,12 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\bin\x86\Debug\em
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\bin\x86\Debug\empresaGlobalProj.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\obj\x86\Debug\Comun.Utils.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\Utils\obj\x86\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\Utils\bin\x86\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\Utils\bin\x86\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\Utils\bin\x86\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\Utils\bin\x86\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\Utils\obj\x86\Debug\Utils.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\Utils\obj\x86\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\Utils\obj\x86\Debug\Utils.csproj.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\Utils\obj\x86\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\Utils\obj\x86\Debug\Comun.Utils.pdb

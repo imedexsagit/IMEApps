@@ -12,3 +12,17 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\IncTornilleria\obj\x86\Debug\IncTorni.56BAD227.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\bin\Debug\IncTornilleria.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\bin\Debug\IncTornilleria.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.IncTornilleria.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\obj\x86\Debug\IncTorni.56BAD227.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\IncTornilleria\obj\x86\Debug\IncTornilleria.pdb

@@ -12,3 +12,17 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\Aprovision
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\Aprovisi.B2D77996.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\bin\Debug\AprovisionamientoCalculo.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\bin\Debug\AprovisionamientoCalculo.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.AprovisionamientoCalculo.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\Aprovisi.B2D77996.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Aprovisionamiento\AprovisionamientoCalculo\obj\x86\Debug\AprovisionamientoCalculo.pdb

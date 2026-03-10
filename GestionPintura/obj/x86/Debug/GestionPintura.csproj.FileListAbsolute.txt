@@ -18,3 +18,23 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\bin\Debug\es\
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionPintura\obj\x86\Debug\GestionP.339D2585.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\GestionPintura.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\GestionPintura.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\EstadoTaller.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\EstadoTaller.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.GestionPintura.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\obj\x86\Debug\GestionP.339D2585.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionPintura\obj\x86\Debug\GestionPintura.pdb

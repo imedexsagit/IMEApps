@@ -4,3 +4,12 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\b
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\bin\x86\Debug\empresaGlobalProj.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\obj\x86\Debug\AdvancedDataGridView.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Comun\AdvancedDataGridView\obj\x86\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\AdvancedDataGridView\bin\x86\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\AdvancedDataGridView\bin\x86\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\AdvancedDataGridView\bin\x86\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\AdvancedDataGridView\bin\x86\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\AdvancedDataGridView\obj\x86\Debug\AdvancedDataGridView.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\AdvancedDataGridView\obj\x86\Debug\AdvancedDataGridView.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\AdvancedDataGridView\obj\x86\Debug\Advanced.BB233DA5.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\AdvancedDataGridView\obj\x86\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Comun\AdvancedDataGridView\obj\x86\Debug\AdvancedDataGridView.pdb

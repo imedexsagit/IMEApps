@@ -10,3 +10,15 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\Proyecto.CEB99E84.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\bin\Debug\ProyectosSinExpedicion.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\bin\Debug\ProyectosSinExpedicion.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.Form1.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\Proyecto.CEB99E84.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\ProyectosSinExpedicion\obj\x86\Debug\ProyectosSinExpedicion.pdb

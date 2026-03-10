@@ -10,3 +10,15 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\D
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionG.79F78761.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\bin\Debug\GestionGalvanizado.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\bin\Debug\GestionGalvanizado.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.Form1.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionG.79F78761.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\GestionGalvanizado\obj\x86\Debug\GestionGalvanizado.pdb

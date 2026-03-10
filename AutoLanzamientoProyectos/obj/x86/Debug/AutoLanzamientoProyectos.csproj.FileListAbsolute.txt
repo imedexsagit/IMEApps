@@ -12,3 +12,17 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanz.966F48A9.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\bin\Debug\AutoLanzamientoProyectos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\bin\Debug\AutoLanzamientoProyectos.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.AutoLanzamientoProyectos.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanz.966F48A9.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\AutoLanzamientoProyectos\obj\x86\Debug\AutoLanzamientoProyectos.pdb

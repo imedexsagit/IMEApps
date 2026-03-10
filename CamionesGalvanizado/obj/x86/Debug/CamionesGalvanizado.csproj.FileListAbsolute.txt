@@ -13,3 +13,18 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CamionesGalvanizado\obj\x86\Debug\Camiones.E928A6A5.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\bin\Debug\CamionesGalvanizado.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\bin\Debug\CamionesGalvanizado.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.ResolveComReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.ExportacionCamiones.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\obj\x86\Debug\Camiones.E928A6A5.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CamionesGalvanizado\obj\x86\Debug\CamionesGalvanizado.pdb

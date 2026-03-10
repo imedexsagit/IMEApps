@@ -6,3 +6,13 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\HorizonteAsprova\obj\x86\Deb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.pdb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\HorizonteAsprova\bin\Debug\HorizonteAsprova.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\bin\Debug\HorizonteAsprova.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\bin\Debug\HorizonteAsprova.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.ErrorFecha.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.formHorizonte.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\HorizonteAsprova\obj\x86\Debug\HorizonteAsprova.pdb

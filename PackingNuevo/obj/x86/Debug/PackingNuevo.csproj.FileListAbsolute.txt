@@ -13,3 +13,18 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\P
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PackingNuevo\obj\x86\Debug\PackingN.F074628A.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\bin\Debug\PackingNuevo.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\bin\Debug\PackingNuevo.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.frmPaquetes.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.Prin.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\obj\x86\Debug\PackingN.F074628A.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PackingNuevo\obj\x86\Debug\PackingNuevo.pdb

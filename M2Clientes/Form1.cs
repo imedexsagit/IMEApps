@@ -122,55 +122,63 @@ namespace M2Clientes
 
             int a = dt.Columns.Count;
 
+            int contador = 0; 
+
             foreach (DataRow row in dt.Rows)
             {
                 string premarca = "0";
                 string m2 = "0";
                 string cantidad = "0";
+                string perfil = "0";
+
+                contador++; 
 
                 if ((a > columm2 ) && (a > colummarca) && (a > columcantidad))
                 {
                     premarca = Convert.ToString(row[colummarca - 1]);
+                    perfil = Convert.ToString(row[columcantidad]);
                     m2 = Convert.ToString(row[columm2 - 1]);
                     cantidad = Convert.ToString(row[columcantidad - 1]);
                 }
 
             
                 string marca = prefijo + premarca;
-
-                if (existeMarca(marca))
+                if (!esNumerico(perfil))
                 {
-                    // Comprobamos si los metros cuadrados son correctos.
-                    if (esNumerico(m2))
+                    if (existeMarca(marca))
                     {
-                        //Insertamos el dato en la db y en caso correcto, lo mostramos en la tabla.
-                        if (esNumerico(cantidad))
+                        // Comprobamos si los metros cuadrados son correctos.
+                        if (esNumerico(m2))
                         {
-                            decimal m2pieza = Convert.ToDecimal(m2) / Convert.ToDecimal(cantidad);
-                            insertarMetros(marca,Convert.ToString(m2pieza));
-                            dataGridView1.Rows.Add(marca, Convert.ToString(m2pieza), "M2 CORRECTOS"); 
+                            //Insertamos el dato en la db y en caso correcto, lo mostramos en la tabla.
+                            if (esNumerico(cantidad))
+                            {
+                                decimal m2pieza = Convert.ToDecimal(m2) / Convert.ToDecimal(cantidad);
+                                insertarMetros(marca, Convert.ToString(m2pieza));
+                                dataGridView1.Rows.Add(marca, Convert.ToString(m2pieza), "M2 CORRECTOS");
+                            }
+                            else
+                            {  //Añadimos el error de que no exite la marca a la tabla.
+                               //dataGridView1.Rows.Add(marca, m2, "ERROR. La CANTIDAD no es correcta.");
+
+
+                            }
+
                         }
                         else
-                        {  //Añadimos el error de que no exite la marca a la tabla.
-                            //dataGridView1.Rows.Add(marca, m2, "ERROR. La CANTIDAD no es correcta.");
-
-
+                        {
+                            //Añadimos el error de que no exite la marca a la tabla.
+                            //dataGridView1.Rows.Add(marca, m2, "ERROR. Los M2 no son correctos.");
                         }
-
                     }
                     else
                     {
                         //Añadimos el error de que no exite la marca a la tabla.
-                        //dataGridView1.Rows.Add(marca, m2, "ERROR. Los M2 no son correctos.");
+                        //dataGridView1.Rows.Add(marca, m2, "ERROR. La Marca no exite en el sistema.");
                     }
-                }
-                else
-                {
-                    //Añadimos el error de que no exite la marca a la tabla.
-                    //dataGridView1.Rows.Add(marca, m2, "ERROR. La Marca no exite en el sistema.");
-
 
                 }
+
             }
         }
         public void insertarMetros(string marca, string m2)

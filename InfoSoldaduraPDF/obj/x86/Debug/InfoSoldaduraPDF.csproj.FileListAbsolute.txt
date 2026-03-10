@@ -14,3 +14,22 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InfoSoldaduraPDF\obj\x86\Deb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\InfoSoldaduraPDF.dll.config
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\InfoSoldaduraPDF.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\InfoSoldaduraPDF.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\itextsharp.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\PQScan.PDFToImage.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\Spire.Pdf.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\Spire.License.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\Microsoft.mshtml.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.FormDatosSoldadura.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.FormPrincipal.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSold.CC05FC72.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\InfoSoldaduraPDF\obj\x86\Debug\InfoSoldaduraPDF.pdb

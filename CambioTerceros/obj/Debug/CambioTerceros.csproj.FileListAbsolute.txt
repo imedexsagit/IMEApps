@@ -6,3 +6,14 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\obj\Debug\Cam
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\bin\Debug\CambioTerceros.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\bin\Debug\CambioTerceros.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.cambioTerceros.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\obj\Debug\CambioTe.FB468298.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\CambioTerceros\obj\Debug\CambioTerceros.pdb

@@ -12,3 +12,17 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PaquetesReprocesado\obj\x86\
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PaquetesReprocesado\obj\x86\Debug\PaquetesReprocesado.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PaquetesReprocesado\obj\x86\Debug\PaquetesReprocesado.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\PaquetesReprocesado\obj\x86\Debug\Paquetes.9C9121B8.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\bin\Debug\PaquetesReprocesado.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\bin\Debug\PaquetesReprocesado.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\obj\x86\Debug\PaquetesReprocesado.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\obj\x86\Debug\PaquetesReprocesado.Form1.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\obj\x86\Debug\PaquetesReprocesado.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\obj\x86\Debug\PaquetesReprocesado.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\obj\x86\Debug\PaquetesReprocesado.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\obj\x86\Debug\Paquetes.9C9121B8.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\obj\x86\Debug\PaquetesReprocesado.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\PaquetesReprocesado\obj\x86\Debug\PaquetesReprocesado.pdb

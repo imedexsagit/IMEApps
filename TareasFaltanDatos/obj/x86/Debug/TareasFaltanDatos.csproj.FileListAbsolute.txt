@@ -12,3 +12,17 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\De
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFa.904C2F03.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\bin\Debug\TareasFaltanDatos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\bin\Debug\TareasFaltanDatos.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\bin\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\bin\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.Form1.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFa.904C2F03.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TareasFaltanDatos\obj\x86\Debug\TareasFaltanDatos.pdb

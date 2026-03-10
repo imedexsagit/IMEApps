@@ -10,3 +10,17 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Estado Taller\EstadoTaller\o
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\bin\Debug\EstadoTaller.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\bin\Debug\EstadoTaller.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.PantallaCarga.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.UCGraficoBarras.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.EstadoTallerForm.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTa.89B2E540.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Estado Taller\EstadoTaller\obj\x86\Debug\EstadoTaller.pdb

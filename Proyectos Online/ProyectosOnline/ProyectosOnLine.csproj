@@ -21,10 +21,14 @@
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -124,7 +128,6 @@
   <ItemGroup>
     <Compile Include="BonoEtiquetas.cs">
       <DependentUpon>BonoEtiquetas.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="BonoEtiquetas.Designer.cs">
       <AutoGen>True</AutoGen>

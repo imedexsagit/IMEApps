@@ -13,10 +13,14 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -63,18 +67,15 @@
     <Compile Include="AccesoServicioPlanos.cs" />
     <Compile Include="dsBusquedaArticulos.cs">
       <DependentUpon>dsBusquedaArticulos.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="dsCategorias.cs">
       <DependentUpon>dsCategorias.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="dsCodigos.cs">
       <DependentUpon>dsCodigos.xsd</DependentUpon>
     </Compile>
     <Compile Include="dsFamilias.cs">
       <DependentUpon>dsFamilias.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="ExportToExcelInforme.cs" />
     <Compile Include="elegirColsInforme.cs">

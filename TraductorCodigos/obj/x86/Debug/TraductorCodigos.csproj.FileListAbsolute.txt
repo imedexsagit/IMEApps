@@ -12,3 +12,17 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Deb
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TraductorCodigos\obj\x86\Debug\Traducto.CE7B5738.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\bin\Debug\TraductorCodigos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\bin\Debug\TraductorCodigos.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.TraductorCodigos.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\obj\x86\Debug\Traducto.CE7B5738.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TraductorCodigos\obj\x86\Debug\TraductorCodigos.pdb

@@ -10,3 +10,18 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Inspecciones Calidad\Inspecc
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.csproj.GenerateResource.Cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.dll
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\bin\Debug\InspeccionesTablets.dll.config
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\bin\Debug\InspeccionesTablets.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\bin\Debug\InspeccionesTablets.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.Form1.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.Form2.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.Form5.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\Inspecci.92CCB11C.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\Inspecciones Calidad\InspeccionesTablets\obj\x86\Debug\InspeccionesTablets.pdb

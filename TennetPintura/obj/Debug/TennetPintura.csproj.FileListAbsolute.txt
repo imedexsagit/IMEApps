@@ -19,3 +19,24 @@ C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\bin\Debug\Intr
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.csproj.AssemblyReference.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPintura.csproj.CoreCompileInputs.cache
 C:\Users\carlos.casquero\Desktop\GitHub uso\IMEApps\TennetPintura\obj\Debug\TennetPi.0588E2E5.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\TennetPintura.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\TennetPintura.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\empresaGlobalProj.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\Intranet.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\AdvancedDataGridView.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\ControlAccesos.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\Comun.Utils.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\Intranet.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\Intranet.dll.config
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\empresaGlobalProj.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\AdvancedDataGridView.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\ControlAccesos.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\bin\Debug\Comun.Utils.pdb
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\obj\Debug\TennetPintura.csproj.AssemblyReference.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\obj\Debug\TennetPintura.Properties.Resources.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\obj\Debug\TennetPintura.tennetPintura.resources
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\obj\Debug\TennetPintura.csproj.GenerateResource.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\obj\Debug\TennetPintura.csproj.CoreCompileInputs.cache
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\obj\Debug\TennetPi.0588E2E5.Up2Date
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\obj\Debug\TennetPintura.dll
+C:\Users\carlos.casquero\Source\Repos\IMEApps\TennetPintura\obj\Debug\TennetPintura.pdb
