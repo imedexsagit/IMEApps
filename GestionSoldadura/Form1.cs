@@ -36,7 +36,7 @@ namespace GestionSoldadura
         private DataGridView.HitTestInfo hitTestInfo;
         public string valorCliente = "";
         public string valorPedido = "";
-        private string connString = "Data Source=SRVDESARROLLO;Initial Catalog=gg;User ID=gg;Password=ostia";
+        private string connString = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
 
 
         public Form1()

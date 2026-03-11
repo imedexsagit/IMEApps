@@ -1077,7 +1077,8 @@ namespace TennetPintura
                 if (conexion.State != ConnectionState.Open)
                     conexion.Open();
 
-                strsql = "Select isNull(VALOR, -1) from T_ARTCAR where CODIGO = '" + marca + "' and CARACT = '20'";
+                // Carlos Casquero 11/03/2026 - Se añade el codigo de empresa 3 puesto que si no aparece como que no se ha insertado la marca pero al existir no permite insertarla
+                strsql = "Select isNull(VALOR, -1) from T_ARTCAR where CodEMP='3' AND CODIGO = '" + marca + "' and CARACT = '20'";
                 SqlCommand comando = new SqlCommand(strsql, conexion);
 
                 //Carlos Sanchez 
@@ -1135,7 +1136,7 @@ namespace TennetPintura
                     if (conexion.State != ConnectionState.Open)
                         conexion.Open();
 
-                    strsql = "UPDATE [gg].[dbo].T_ARTCAR SET [VALOR] = '" + value + "' where CARACT = '20' and CODIGO = '" + marca + "'";
+                    strsql = "UPDATE [gg].[dbo].T_ARTCAR SET [VALOR] = '" + value + "' where CodEMP='3' AND CARACT = '20' and CODIGO = '" + marca + "'";
                     SqlCommand comando = new SqlCommand(strsql, conexion);
 
                     comando.ExecuteNonQuery();

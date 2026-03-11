@@ -154,14 +154,13 @@ namespace M2Clientes
                             if (esNumerico(cantidad))
                             {
                                 decimal m2pieza = Convert.ToDecimal(m2) / Convert.ToDecimal(cantidad);
-                                insertarMetros(marca, Convert.ToString(m2pieza));
+                                // Carlos Casquero 11/03/2026 - Se añade la marca como referencia para que si se trata de un cjto soldado aparezca el punto final en la aplicación
+                                insertarMetros(ref marca, Convert.ToString(m2pieza));
                                 dataGridView1.Rows.Add(marca, Convert.ToString(m2pieza), "M2 CORRECTOS");
                             }
                             else
                             {  //Añadimos el error de que no exite la marca a la tabla.
                                //dataGridView1.Rows.Add(marca, m2, "ERROR. La CANTIDAD no es correcta.");
-
-
                             }
 
                         }
@@ -181,7 +180,7 @@ namespace M2Clientes
 
             }
         }
-        public void insertarMetros(string marca, string m2)
+        public void insertarMetros(ref string marca, string m2)
         {
             string strsql;
             SqlCommand comando;
@@ -382,7 +381,7 @@ namespace M2Clientes
 
                 string valor = ObtenerValorAnterior(marca);
 
-                insertarMetros(marca, valor);
+                insertarMetros(ref marca, valor);
 
                 MessageBox.Show("Datos eliminados correctamente.");
 
@@ -431,7 +430,7 @@ namespace M2Clientes
 
             string valor =  Convert.ToString(dataGridView1.Rows[fila].Cells[1].Value);;
 
-            insertarMetros(marca, valor);
+            insertarMetros(ref marca, valor);
 
             MessageBox.Show("Marca validada correctamente.");
 
