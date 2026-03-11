@@ -78,6 +78,7 @@
             this.btnPNIaLST = new ImeApps.BotonAplicacion();
             this.btnColoresTorres = new ImeApps.BotonAplicacion();
             this.btnHorizonteAsp = new ImeApps.BotonAplicacion();
+            this.btnAnalyzer = new ImeApps.BotonAplicacion();
             this.flPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -131,10 +132,11 @@
             this.flPanel.Controls.Add(this.btnPNIaLST);
             this.flPanel.Controls.Add(this.btnColoresTorres);
             this.flPanel.Controls.Add(this.btnHorizonteAsp);
+            this.flPanel.Controls.Add(this.btnAnalyzer);
             this.flPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flPanel.Location = new System.Drawing.Point(0, 0);
             this.flPanel.Name = "flPanel";
-            this.flPanel.Size = new System.Drawing.Size(1365, 712);
+            this.flPanel.Size = new System.Drawing.Size(1365, 813);
             this.flPanel.TabIndex = 1;
             // 
             // btnBuscador
@@ -726,12 +728,25 @@
             this.btnHorizonteAsp.Texto = "Horizonte Asprova";
             this.btnHorizonteAsp.BotonAplicacionClick += new ImeApps.BotonAplicacion.BotonAplicacionClickHandler(this.btnHorizonteAsp_BotonAplicacionClick);
             // 
+            // btnAnalyzer
+            // 
+            this.btnAnalyzer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnAnalyzer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnalyzer.Imagen = ((System.Drawing.Image)(resources.GetObject("btnAnalyzer.Imagen")));
+            this.btnAnalyzer.Location = new System.Drawing.Point(4, 694);
+            this.btnAnalyzer.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAnalyzer.Name = "btnAnalyzer";
+            this.btnAnalyzer.Size = new System.Drawing.Size(162, 107);
+            this.btnAnalyzer.TabIndex = 48;
+            this.btnAnalyzer.Texto = "Tekla Analyzer 25";
+            this.btnAnalyzer.BotonAplicacionClick += new ImeApps.BotonAplicacion.BotonAplicacionClickHandler(this.btnAnalyzer_BotonAplicacionClick);
+            // 
             // AccesoAplicaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(1365, 712);
+            this.ClientSize = new System.Drawing.Size(1365, 813);
             this.ControlBox = false;
             this.Controls.Add(this.flPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -800,5 +815,6 @@
         private BotonAplicacion btnPNIaLST;
         private BotonAplicacion btnColoresTorres;
         private BotonAplicacion btnHorizonteAsp;
+        private BotonAplicacion btnAnalyzer;
     }
 }

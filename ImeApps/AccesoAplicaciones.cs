@@ -257,7 +257,11 @@ namespace ImeApps
             {
                 btnHorizonteAsp.Visible = false;
             }
-
+            // Carlos Casquero 11/03/2026 - Se controla si tiene acceso el usuario al Tekla Analyzer
+            if (!controlAcceso.TieneAcceso("TeklaAnalyzer"))
+            {
+                btnAnalyzer.Visible = false;
+            }
         }
 
 
@@ -1053,9 +1057,16 @@ namespace ImeApps
             p.StartInfo.FileName = @"\\nas01\AppIMEDEXSA\ColoresTorres\ColorTorresPintura.exe";
             p.Start();
             Cursor.Current = Cursors.Arrow;
-        }      
+        }
 
-       
-                                                  
+        // Carlos Casquero 11/03/2026 - Se añade el botón para el Tekla Analyzer 25
+        private void btnAnalyzer_BotonAplicacionClick()
+        {
+            Cursor.Current = Cursors.WaitCursor;
+            System.Diagnostics.Process p = new System.Diagnostics.Process();
+            p.StartInfo.FileName = @"\\nas01\AppIMEDEXSA\TEKLA 2025\AnalizadorTekla2025_PORTABLE\IMEDEXSA.Tekla_Analyzer.exe";
+            p.Start();
+            Cursor.Current = Cursors.Arrow;
+        }
     }
 }
