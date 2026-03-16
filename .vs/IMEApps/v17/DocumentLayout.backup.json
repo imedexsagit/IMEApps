@@ -6,26 +6,6 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ImeApps||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\imeapps\\accesoaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|solutionrelative:imeapps\\accesoaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|c:\\users\\carlos.casquero\\source\\repos\\imeapps\\imeapps\\accesoaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|solutionrelative:imeapps\\accesoaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|c:\\users\\carlos.casquero\\source\\repos\\imeapps\\imeapps\\accesoaplicaciones.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|solutionrelative:imeapps\\accesoaplicaciones.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5527ADF9-BFA9-429D-A247-28D149C586E3}|GestionSoldadura\\GestionSoldadura.csproj|C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\gestionsoldadura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527ADF9-BFA9-429D-A247-28D149C586E3}|GestionSoldadura\\GestionSoldadura.csproj|solutionrelative:gestionsoldadura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5527ADF9-BFA9-429D-A247-28D149C586E3}|GestionSoldadura\\GestionSoldadura.csproj|C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\gestionsoldadura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5527ADF9-BFA9-429D-A247-28D149C586E3}|GestionSoldadura\\GestionSoldadura.csproj|solutionrelative:gestionsoldadura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|c:\\users\\carlos.casquero\\source\\repos\\imeapps\\imeapps\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
     }
   ],
@@ -57,6 +37,18 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -69,82 +61,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccesoAplicaciones.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\carlos.casquero\\Source\\Repos\\IMEApps\\ImeApps\\AccesoAplicaciones.Designer.cs",
-              "RelativeDocumentMoniker": "ImeApps\\AccesoAplicaciones.Designer.cs",
-              "ToolTip": "C:\\Users\\carlos.casquero\\Source\\Repos\\IMEApps\\ImeApps\\AccesoAplicaciones.Designer.cs",
-              "RelativeToolTip": "ImeApps\\AccesoAplicaciones.Designer.cs",
-              "ViewState": "AgIAAMkCAAAAAAAAAAAcwOQCAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T11:29:54.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccesoAplicaciones.cs",
-              "DocumentMoniker": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\ImeApps\\AccesoAplicaciones.cs",
-              "RelativeDocumentMoniker": "ImeApps\\AccesoAplicaciones.cs",
-              "ToolTip": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\ImeApps\\AccesoAplicaciones.cs",
-              "RelativeToolTip": "ImeApps\\AccesoAplicaciones.cs",
-              "ViewState": "AgIAABUEAAAAAAAAAAAqwC8EAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T10:02:12.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccesoAplicaciones.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\ImeApps\\AccesoAplicaciones.cs",
-              "RelativeDocumentMoniker": "ImeApps\\AccesoAplicaciones.cs",
-              "ToolTip": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\ImeApps\\AccesoAplicaciones.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ImeApps\\AccesoAplicaciones.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T11:29:17.822Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\GestionSoldadura\\Form1.cs",
-              "RelativeDocumentMoniker": "GestionSoldadura\\Form1.cs",
-              "ToolTip": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\GestionSoldadura\\Form1.cs",
-              "RelativeToolTip": "GestionSoldadura\\Form1.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvykAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T09:42:50.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\GestionSoldadura\\Form1.cs",
-              "RelativeDocumentMoniker": "GestionSoldadura\\Form1.cs",
-              "ToolTip": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\GestionSoldadura\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GestionSoldadura\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T09:42:48.497Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             }
           ]
         }

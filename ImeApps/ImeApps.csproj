@@ -32,7 +32,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>572</ApplicationRevision>
+    <ApplicationRevision>574</ApplicationRevision>
     <ApplicationVersion>1.3.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -243,11 +243,11 @@
     </ProjectReference>
     <ProjectReference Include="..\AutoLanzamientoProyectos\AutoLanzamientoProyectos.csproj">
       <Project>{0AB77AFB-A40F-4421-AE79-7B842559B7B7}</Project>
-      <Name>AutoLanzamientoProyectos %28AutoLanzamientoProyectos\AutoLanzamientoProyectos%29</Name>
+      <Name>AutoLanzamientoProyectos</Name>
     </ProjectReference>
     <ProjectReference Include="..\BuscadorNC\BuscadorNC.csproj">
       <Project>{71875CAC-26C0-4111-9B1D-774A73CA7FCD}</Project>
-      <Name>BuscadorNC %28BuscadorNC\BuscadorNC%29</Name>
+      <Name>BuscadorNC</Name>
     </ProjectReference>
     <ProjectReference Include="..\Buscador\GestorCategoriasCaracteristicasIngenieria\GestorCategoriasCaracteristicasIngenieria.csproj">
       <Project>{4E607F05-C170-4873-BC34-B47560218D7B}</Project>
@@ -259,7 +259,7 @@
     </ProjectReference>
     <ProjectReference Include="..\CambioTerceros\CambioTerceros.csproj">
       <Project>{6A09531D-5A00-4526-BF68-A3A9812462C7}</Project>
-      <Name>CambioTerceros %28CambioTerceros\CambioTerceros%29</Name>
+      <Name>CambioTerceros</Name>
     </ProjectReference>
     <ProjectReference Include="..\CamionesGalvanizado\CamionesGalvanizado.csproj">
       <Project>{953763C7-FAE6-475F-937C-F0FFF50FFA09}</Project>
@@ -267,59 +267,59 @@
     </ProjectReference>
     <ProjectReference Include="..\ControlAccesos\ControlAccesos\ControlAccesos.csproj">
       <Project>{E8D4976D-22B2-4931-8A39-47C139948E4D}</Project>
-      <Name>ControlAccesos %28ControlAccesos\ControlAccesos%29</Name>
+      <Name>ControlAccesos</Name>
     </ProjectReference>
     <ProjectReference Include="..\DivisorLotes\DivisorLotes.csproj">
       <Project>{BDBDB0AB-42D3-4D0E-A5DC-2BA4964F7EAF}</Project>
-      <Name>DivisorLotes %28DivisorLotes\DivisorLotes%29</Name>
+      <Name>DivisorLotes</Name>
     </ProjectReference>
     <ProjectReference Include="..\empresaGlobalProj\empresaGlobalProj\empresaGlobalProj.csproj">
       <Project>{278098CA-9C7D-4B10-B23D-4DE11B5B85BF}</Project>
-      <Name>empresaGlobalProj %28empresaGlobalProj\empresaGlobalProj%29</Name>
+      <Name>empresaGlobalProj</Name>
     </ProjectReference>
     <ProjectReference Include="..\Estado Taller\EstadoTaller\EstadoTaller.csproj">
       <Project>{BC703CE7-7B82-4D10-8612-84857F5B4B3D}</Project>
-      <Name>EstadoTaller %28EstadoTaller\EstadoTaller%29</Name>
+      <Name>EstadoTaller</Name>
     </ProjectReference>
     <ProjectReference Include="..\GestionGalvanizado\GestionGalvanizado.csproj">
       <Project>{9706E0D4-A4B6-4BFE-A8FE-115C093AC4D0}</Project>
-      <Name>GestionGalvanizado %28GestionGalvanizado\GestionGalvanizado%29</Name>
+      <Name>GestionGalvanizado</Name>
     </ProjectReference>
     <ProjectReference Include="..\GestionPintura\GestionPintura.csproj">
       <Project>{18131B4B-FE22-41CD-91FB-F8FB0E1C0CE7}</Project>
-      <Name>GestionPintura %28GestionPintura\GestionPintura%29</Name>
+      <Name>GestionPintura</Name>
     </ProjectReference>
     <ProjectReference Include="..\GestionSoldadura\GestionSoldadura.csproj">
       <Project>{5527ADF9-BFA9-429D-A247-28D149C586E3}</Project>
-      <Name>GestionSoldadura %28GestionSoldadura\GestionSoldadura%29</Name>
+      <Name>GestionSoldadura</Name>
     </ProjectReference>
     <ProjectReference Include="..\GestionVacaciones\GestionVacaciones.csproj">
       <Project>{BD21FA24-3836-48FC-9704-D025DDB5828F}</Project>
-      <Name>GestionVacaciones %28GestionVacaciones\GestionVacaciones%29</Name>
+      <Name>GestionVacaciones</Name>
     </ProjectReference>
     <ProjectReference Include="..\GestorPesoClientes\GestorPesoClientes.csproj">
       <Project>{6DD83790-1A81-4F8E-A87D-E495503658AD}</Project>
-      <Name>GestorPesoClientes %28GestorPesoClientes\GestorPesoClientes%29</Name>
+      <Name>GestorPesoClientes</Name>
     </ProjectReference>
     <ProjectReference Include="..\GestorTurnosTaller\GestorTurnosTaller.csproj">
       <Project>{8CA1BCAB-7EE2-4891-9FBF-87002D6BE046}</Project>
-      <Name>GestorTurnosTaller %28GestorTurnosTaller\GestorTurnosTaller%29</Name>
+      <Name>GestorTurnosTaller</Name>
     </ProjectReference>
     <ProjectReference Include="..\HorizonteAsprova\HorizonteAsprova.csproj">
       <Project>{AF086AA9-5F92-4358-AFA4-50A8BC8A4E16}</Project>
-      <Name>HorizonteAsprova %28HorizonteAsprova\HorizonteAsprova%29</Name>
+      <Name>HorizonteAsprova</Name>
     </ProjectReference>
     <ProjectReference Include="..\Imprimacion\Imprimacion.csproj">
       <Project>{B007B1F8-7FA4-465D-BD68-16983F5A4B3B}</Project>
-      <Name>Imprimacion %28Imprimacion\Imprimacion%29</Name>
+      <Name>Imprimacion</Name>
     </ProjectReference>
     <ProjectReference Include="..\IncTornilleria\IncTornilleria.csproj">
       <Project>{16742FE7-7A31-46ED-B39D-D527DC7F3177}</Project>
-      <Name>IncTornilleria %28IncTornilleria\IncTornilleria%29</Name>
+      <Name>IncTornilleria</Name>
     </ProjectReference>
     <ProjectReference Include="..\InfoExpediciones\InfoExpediciones.csproj">
       <Project>{27AE0F63-2B84-4CF5-B658-A854F9DCFAED}</Project>
-      <Name>InfoExpediciones %28InfoExpediciones\InfoExpediciones%29</Name>
+      <Name>InfoExpediciones</Name>
     </ProjectReference>
     <ProjectReference Include="..\InfoSoldaduraPDF\InfoSoldaduraPDF.csproj">
       <Project>{1918C504-5444-4B7D-A743-F14ED51149CA}</Project>
@@ -339,7 +339,7 @@
     </ProjectReference>
     <ProjectReference Include="..\LanzamientoPendiente\LanzamientoPendiente.csproj">
       <Project>{840DC17E-0B31-4E9A-BABE-011EE99647B7}</Project>
-      <Name>LanzamientoPendiente %28LanzamientoPendiente\LanzamientoPendiente%29</Name>
+      <Name>LanzamientoPendiente</Name>
     </ProjectReference>
     <ProjectReference Include="..\Lanzamientos\LanzamientoProyectos\LanzamientoProyectos.csproj">
       <Project>{2795DECF-9394-4EF0-AB80-21CF70716543}</Project>
@@ -351,11 +351,11 @@
     </ProjectReference>
     <ProjectReference Include="..\M2Clientes\M2Clientes.csproj">
       <Project>{72CC5B25-726C-4F51-90ED-F9167A31931F}</Project>
-      <Name>M2Clientes %28M2Clientes\M2Clientes%29</Name>
+      <Name>M2Clientes</Name>
     </ProjectReference>
     <ProjectReference Include="..\ModificarNC\ModificarNC.csproj">
       <Project>{2D6033BA-2472-493C-BA29-FD735372E30A}</Project>
-      <Name>ModificarNC %28ModificarNC\ModificarNC%29</Name>
+      <Name>ModificarNC</Name>
     </ProjectReference>
     <ProjectReference Include="..\PackingNuevo\PackingNuevo.csproj">
       <Project>{3D3A7F7B-20D5-4D63-AD93-D7ACB387F890}</Project>
@@ -363,11 +363,11 @@
     </ProjectReference>
     <ProjectReference Include="..\PaquetesReprocesado\PaquetesReprocesado.csproj">
       <Project>{29586D5B-820E-43BD-B88D-E0598B139DDE}</Project>
-      <Name>PaquetesReprocesado %28PaquetesReprocesado\PaquetesReprocesado%29</Name>
+      <Name>PaquetesReprocesado</Name>
     </ProjectReference>
     <ProjectReference Include="..\PlanosPedidos\PlanosPedidos.csproj">
       <Project>{284A0469-68B2-4AA2-85C9-525732AE3C5F}</Project>
-      <Name>PlanosPedidos %28PlanosPedidos\PlanosPedidos%29</Name>
+      <Name>PlanosPedidos</Name>
     </ProjectReference>
     <ProjectReference Include="..\Proyectos Online\ProyectosOnline\ProyectosOnLine.csproj">
       <Project>{1BE64171-4F12-4B31-A366-C4014558DD27}</Project>
@@ -375,43 +375,43 @@
     </ProjectReference>
     <ProjectReference Include="..\ProyectosSinExpedicion\ProyectosSinExpedicion.csproj">
       <Project>{B41D90C0-D4AA-46B7-9DFE-57239590B4BA}</Project>
-      <Name>ProyectosSinExpedicion %28ProyectosSinExpedicion\ProyectosSinExpedicion%29</Name>
+      <Name>ProyectosSinExpedicion</Name>
     </ProjectReference>
     <ProjectReference Include="..\RecepcionCamiones\RecepcionCamiones.csproj">
       <Project>{4B832155-5994-40BE-B5DF-210DBEF20C61}</Project>
-      <Name>RecepcionCamiones %28RecepcionCamiones\RecepcionCamiones%29</Name>
+      <Name>RecepcionCamiones</Name>
     </ProjectReference>
     <ProjectReference Include="..\ReclamacionesSinProyecto\ReclamacionesSinProyecto.csproj">
       <Project>{4874A2E6-2CC0-4F04-BBB0-A04FD45EC625}</Project>
-      <Name>ReclamacionesSinProyecto %28ReclamacionesSinProyecto\ReclamacionesSinProyecto%29</Name>
+      <Name>ReclamacionesSinProyecto</Name>
     </ProjectReference>
     <ProjectReference Include="..\ReservaComprasMP\ReservaComprasMP.csproj">
       <Project>{90B26895-A0D2-4251-8AFF-01534C957E0D}</Project>
-      <Name>ReservaComprasMP %28ReservaComprasMP\ReservaComprasMP%29</Name>
+      <Name>ReservaComprasMP</Name>
     </ProjectReference>
     <ProjectReference Include="..\ServicioPlanos\ServicioPlanos.csproj">
       <Project>{918F483A-3B67-433C-87A7-3DC47E433AC6}</Project>
-      <Name>ServicioPlanos %28ServicioPlanos\ServicioPlanos%29</Name>
+      <Name>ServicioPlanos</Name>
     </ProjectReference>
     <ProjectReference Include="..\TareasFaltanDatos\TareasFaltanDatos.csproj">
       <Project>{7D31740C-CCC2-486F-8C4F-EE92D59A13F6}</Project>
-      <Name>TareasFaltanDatos %28TareasFaltanDatos\TareasFaltanDatos%29</Name>
+      <Name>TareasFaltanDatos</Name>
     </ProjectReference>
     <ProjectReference Include="..\TennetPintura\TennetPintura.csproj">
       <Project>{311E0390-FE23-41F2-9D7A-D26DF8575D59}</Project>
-      <Name>TennetPintura %28TareasFaltanDatos\TennetPintura\TennetPintura%29</Name>
+      <Name>TennetPintura</Name>
     </ProjectReference>
     <ProjectReference Include="..\TiemposProyectos\TiemposProyectos.csproj">
       <Project>{2B57A995-70B0-4487-8DDC-5D677B48B24B}</Project>
-      <Name>TiemposProyectos %28TiemposProyectos\TiemposProyectos%29</Name>
+      <Name>TiemposProyectos</Name>
     </ProjectReference>
     <ProjectReference Include="..\TorresStock\TorresStock.csproj">
       <Project>{86824305-9087-406D-B017-A6482438656C}</Project>
-      <Name>TorresStock %28TorresStock\TorresStock%29</Name>
+      <Name>TorresStock</Name>
     </ProjectReference>
     <ProjectReference Include="..\TraductorCodigos\TraductorCodigos.csproj">
       <Project>{73F6510C-20DA-435E-993A-11E7EA7BC750}</Project>
-      <Name>TraductorCodigos %28TraductorCodigos\TraductorCodigos%29</Name>
+      <Name>TraductorCodigos</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

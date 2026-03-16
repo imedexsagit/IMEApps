@@ -37,6 +37,7 @@ namespace GestionSoldadura
         public string valorCliente = "";
         public string valorPedido = "";
         private string connString = "Data Source=srvsql02;Initial Catalog=gg;User ID=gg;Password=ostia";
+        private string connIntranet = "Data Source=srvsql02;Initial Catalog=imedexsa_intranet;User ID=gg;Password=ostia"; 
 
 
         public Form1()
@@ -1284,7 +1285,7 @@ namespace GestionSoldadura
 
             DataTable table = new DataTable();
 
-            conexion = new SqlConnection(connString);
+            conexion = new SqlConnection(connIntranet);
             conexion.Open();
 
             SqlDataAdapter adapter;
