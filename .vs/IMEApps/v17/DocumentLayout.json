@@ -6,11 +6,11 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ImeApps||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|c:\\users\\carlos.casquero\\source\\repos\\imeapps\\tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|solutionrelative:tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|c:\\users\\carlos.casquero\\source\\repos\\imeapps\\tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|solutionrelative:tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -36,8 +36,8 @@
               "Title": "ImeApps",
               "DocumentMoniker": "C:\\Users\\carlos.casquero\\Source\\Repos\\IMEApps\\ImeApps\\ImeApps.csproj",
               "RelativeDocumentMoniker": "ImeApps\\ImeApps.csproj",
-              "ToolTip": "C:\\Users\\carlos.casquero\\Source\\Repos\\IMEApps\\ImeApps\\ImeApps.csproj",
-              "RelativeToolTip": "ImeApps\\ImeApps.csproj",
+              "ToolTip": "C:\\Users\\carlos.casquero\\Source\\Repos\\IMEApps\\ImeApps\\ImeApps.csproj*",
+              "RelativeToolTip": "ImeApps\\ImeApps.csproj*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-03-11T08:57:16.192Z",
               "IsPinned": true,
@@ -87,7 +87,7 @@
               "RelativeDocumentMoniker": "TennetPintura\\tennetPintura.cs",
               "ToolTip": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\TennetPintura\\tennetPintura.cs",
               "RelativeToolTip": "TennetPintura\\tennetPintura.cs",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAMwBgBAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABIEAAAAAAAAAADgvyIEAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T11:56:22.321Z",
               "EditorCaption": ""
@@ -114,8 +114,7 @@
               "RelativeToolTip": "ImeApps\\AccesoAplicaciones.cs",
               "ViewState": "AgIAAKcBAAAAAAAAAAAnwMIBAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T07:14:31.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T07:14:31.609Z"
             }
           ]
         }

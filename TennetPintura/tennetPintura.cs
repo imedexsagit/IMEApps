@@ -1086,7 +1086,10 @@ namespace TennetPintura
 
                 if (valorVacio != "???")
                 {
-                    valor = Convert.ToDouble(comando.ExecuteScalar());
+                    if (valorVacio == "")
+                        valor = -1;
+                    else
+                        valor = Convert.ToDouble(comando.ExecuteScalar());
                 }
                 else
                 {
