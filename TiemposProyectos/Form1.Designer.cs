@@ -226,7 +226,7 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.btnIniciarAuto);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(479, 130);
+            this.panel1.Location = new System.Drawing.Point(479, 143);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(397, 265);
             this.panel1.TabIndex = 12;

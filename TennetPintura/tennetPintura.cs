@@ -1102,7 +1102,8 @@ namespace TennetPintura
                 }
             }
             //Z41-K503
-            if (valor > 0)
+            //Carlos Casquero 09/04/2026 - Se añade que si el valor es 0, por algunos valores que se han añadido erróneamente, se permita modificar este punto
+            if (valor >= 0)
             {
                 pictureBox_checked.Visible = true;
                 textBox_marcaEdit.Visible = true;

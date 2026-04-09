@@ -6,6 +6,18 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ImeApps||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|c:\\users\\carlos.casquero\\source\\repos\\imeapps\\tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|solutionrelative:tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|c:\\users\\carlos.casquero\\source\\repos\\imeapps\\tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{311E0390-FE23-41F2-9D7A-D26DF8575D59}|TennetPintura\\TennetPintura.csproj|solutionrelative:tennetpintura\\tennetpintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\imeapps\\accesoaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|solutionrelative:imeapps\\accesoaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E1C6E3F-4B02-42A5-BD35-2CA7CAA478D9}|ImeApps\\ImeApps.csproj|c:\\users\\carlos.casquero\\source\\repos\\imeapps\\imeapps\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
     }
   ],
@@ -66,6 +78,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tennetPintura.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\TennetPintura\\tennetPintura.cs",
+              "RelativeDocumentMoniker": "TennetPintura\\tennetPintura.cs",
+              "ToolTip": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\TennetPintura\\tennetPintura.cs",
+              "RelativeToolTip": "TennetPintura\\tennetPintura.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAMwBgBAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:56:22.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tennetPintura.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\TennetPintura\\tennetPintura.cs",
+              "RelativeDocumentMoniker": "TennetPintura\\tennetPintura.cs",
+              "ToolTip": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\TennetPintura\\tennetPintura.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TennetPintura\\tennetPintura.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:58:14.669Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccesoAplicaciones.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\ImeApps\\AccesoAplicaciones.cs",
+              "RelativeDocumentMoniker": "ImeApps\\AccesoAplicaciones.cs",
+              "ToolTip": "C:\\Users\\carlos.casquero\\source\\Repos\\IMEApps\\ImeApps\\AccesoAplicaciones.cs",
+              "RelativeToolTip": "ImeApps\\AccesoAplicaciones.cs",
+              "ViewState": "AgIAAKcBAAAAAAAAAAAnwMIBAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T07:14:31.609Z",
+              "EditorCaption": ""
             }
           ]
         }

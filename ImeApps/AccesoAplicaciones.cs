@@ -448,7 +448,6 @@ namespace ImeApps
             if (f == null)
             {
                 //MODIFICAR A TENNETPINTURAS, está con planos pedidos
-
                 TennetPintura.tennetPintura formTennetPintura = new TennetPintura.tennetPintura();
                 //PlanosPedidos.PlanosPedidos formBuscador = new PlanosPedidos.PlanosPedidos();
                 formTennetPintura.MdiParent = this.MdiParent;
